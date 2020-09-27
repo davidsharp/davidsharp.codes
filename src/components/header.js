@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0, width: '100%', textAlign: 'center', fontSize: '4rem' }}>
+      <h1 style={{ margin: 0, width: '100%', textAlign: 'center', fontSize: '4rem', fontFamily: 'Helvetica, sans-serif' }}>
         <Link
           to="/"
           className="outline"

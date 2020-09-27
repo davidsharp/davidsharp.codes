@@ -20,8 +20,8 @@ const Hero = ({ siteTitle }) => (
   <section className="block">
     <div className="box">
       {/*<h1 className="name"><span>david</span><span>sharp</span><span>codes</span></h1>*/}
-      <div className="links">
-        <a className="ion ion-email" id="my-email"><Email/></a>{`・`}
+      <div className="links" style={{textAlign:'center'}}>
+        {/*<a className="ion ion-email" id="my-email"><Email/></a>{`・`}*/}
         <a className="ion ion-social-twitter" href="https://twitter.com/elitefreq"><Twitter/></a>{`・`}
         <a className="ion ion-social-instagram" href="https://www.instagram.com/coin.op/"><Instagram/></a>{`・`}
         <a className="ion ion-social-github" href="https://github.com/davidsharp"><Github/></a>{`・`}
