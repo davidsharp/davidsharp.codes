@@ -7,7 +7,9 @@ import SEO from "../components/seo"
 import List from "../components/list"
 import Hero from "../components/home-hero"
 import Bio from "../components/bio"
-import Box from '../components/box';
+import Box from '../components/box'
+
+import '../base.css'
 
 const IndexPage = () => (
   <Layout>
