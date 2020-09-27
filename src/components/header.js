@@ -2,10 +2,13 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import Properties from '../properties';
+import './outline.css'
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      //background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -16,11 +19,13 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, width: '100%', textAlign: 'center', fontSize: '4rem' }}>
         <Link
           to="/"
+          className="outline"
           style={{
-            color: `white`,
+            color: Properties.colour[1],
+            textShadow: `.3rem .3rem ${Properties.colour[0]}`,
             textDecoration: `none`,
           }}
         >

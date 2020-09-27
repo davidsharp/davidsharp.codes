@@ -1,0 +1,4 @@
+.links a:link, .links a:visited, .links a:hover, .links a:active {
+  color: black;
+  text-decoration: none;
+}

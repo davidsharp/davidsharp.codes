@@ -1,0 +1,20 @@
+section {
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: .6em;
+}
+
+strong {
+
+}
+
+em {
+  font-style: italic;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: inherit
+}
