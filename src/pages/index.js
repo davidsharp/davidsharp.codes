@@ -19,13 +19,6 @@ const IndexPage = () => (
       <Hero />
     </Box>
     <Bio />
-    <Box>
-      <Tweet url="https://twitter.com/EliteFreq/status/990219449625186307"/>
-    </Box>
-    {/*<Box>
-      <List />
-    </Box>*/}
-    {/*<Link to="/page-2/">Go to page 2</Link>*/}
   </Layout>
 )
 
