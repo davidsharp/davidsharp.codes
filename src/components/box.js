@@ -19,7 +19,7 @@ const Box = ({header,children}) => <>
 
 const BoxHeader = ({children}) => <h2 style={{
   marginBottom: '.8em',
-  borderBottom: 'solid'
+  borderBottom: 'solid #333'
 }}>{children}</h2>
 
 export default Box
