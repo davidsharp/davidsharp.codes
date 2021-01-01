@@ -10,7 +10,7 @@ import Colour from '../components/colour'
 
 import data from '../../content/about-site.json'
 
-import {startCase} from 'lodash'
+//import {startCase} from 'lodash'
 
 const SecondPage = () => (
   <Layout>
