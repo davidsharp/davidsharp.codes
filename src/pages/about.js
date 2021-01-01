@@ -21,6 +21,15 @@ const SecondPage = () => (
       <p>{`The typeface is ${data.typeface}`}</p>
       <p>{`The palette uses `}<Colour hex={data.background.toUpperCase()}/>{` for the background`}</p>
     </Box>
+    <Box header="Experience"><p>
+      <ul>
+        <li>2:1 BSc(Hons) Software Engineering from University of Brighton</li>
+        <li>{`>`}{
+          (new Date().getFullYear())-(new Date("February 23, 2015 00:00:00").getFullYear())-1
+        } years at Charanga, building Mobile and Desktop apps using JavaScript in Cordova, Electron and React Native</li>
+      </ul>
+      </p>
+    </Box>
   </Layout>
 )
 
