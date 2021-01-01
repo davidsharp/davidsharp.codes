@@ -4,7 +4,7 @@ const StyleProperties = {
     'monospace'
   ],
   colour: [
-    'black',
+    '#333',
     'white',
     '#fedf00'
   ]

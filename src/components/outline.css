@@ -1,6 +1,6 @@
 .outline {
-  color: black;
+  color: #333;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: .15rem;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: #333;
 }
