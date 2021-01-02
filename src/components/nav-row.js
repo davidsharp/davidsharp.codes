@@ -9,7 +9,7 @@ import {
 
 import {Location} from '@reach/router'
 
-const NavRow = props => <Box style={{width:'100%', display:'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
+const NavRow = props => <Box boxStyle={{width:'100%'}} style={{display:'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
   <Location>
       {({ location }) => <Links current={location.pathname}>
     <AwareLink location={location} to="/"><Home/></AwareLink>
