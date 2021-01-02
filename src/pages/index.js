@@ -8,7 +8,7 @@ import List from "../components/list"
 import Hero from "../components/home-hero"
 import Bio from "../components/bio"
 import Box from '../components/box'
-import {Tweet} from '../components/tweet'
+import {Tweet, TweetBox} from '../components/tweet'
 
 import '../base.css'
 

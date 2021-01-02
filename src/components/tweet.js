@@ -1,5 +1,11 @@
 import React, {useState, useEffect} from 'react';
 
+import Box from './box'
+
+import {
+  SiTwitter as Twitter,
+} from 'react-icons/si'
+
 // client-side, TODO, fetch tweets on build
 
 const API = 'https://cors-anywhere.herokuapp.com/https://publish.twitter.com/oembed?url='
@@ -13,7 +19,15 @@ const Tweet = ({url}) => {
         setTweet(data)
       })
   }, [])
-  return (tweet?<div dangerouslySetInnerHTML={{__html:tweet.html}}/>: <p>loading</p>)
+  return (
+    tweet?<>
+      <div dangerouslySetInnerHTML={{__html:tweet.html}}/>
+      {/*<pre>{JSON.stringify(tweet,null,2)}</pre>*/}
+      </>
+      :<p>loading</p>
+    )
 }
 
-export { Tweet }
+const TweetBox = ({children}) =>  <Box header={<Twitter/>}>{children}</Box>
+
+export { Tweet, TweetBox }
