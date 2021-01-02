@@ -7,14 +7,21 @@ import {
   AiFillHome as Home
 } from 'react-icons/ai'
 
+import {Location} from '@reach/router'
+
 const NavRow = props => <Box style={{width:'100%', display:'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
-  <Links>
-    <Link to="/"><Home/></Link>
-    <Link to="/about/">About</Link>
-    <Link to="/about/">Example</Link>
-    <Link to="/about/">Example</Link>
-  </Links>
+  <Location>
+      {({ location }) => <Links current={location.pathname}>
+    <AwareLink location={location} to="/"><Home/></AwareLink>
+    <AwareLink location={location} to="/about/">About</AwareLink>
+  </Links>}
+  </Location>
+  
   <SocialLinks/>
 </Box>
+
+const AwareLink = ({location, to, children, style, currentStyle={borderBottom:'solid'}, ...props}) => (
+  <Link to={to} style={{...(location.pathname==to?currentStyle:{}),...style}} {...props}>{children}</Link>
+)
 
 export default NavRow

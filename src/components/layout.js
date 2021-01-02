@@ -9,10 +9,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
-import Header from "./header"
+import HomeHeader from "./header"
+import Header from './other-header'
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ home, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -25,7 +26,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      {home?
+        <HomeHeader siteTitle={data.site.siteMetadata.title}/> :
+        <Header siteTitle={data.site.siteMetadata.title} />
+      }
       <div
         style={{
           margin: `0 auto`,
