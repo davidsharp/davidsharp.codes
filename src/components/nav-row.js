@@ -16,7 +16,6 @@ const NavRow = props => <Box style={{width:'100%', display:'flex', flexDirection
     <AwareLink location={location} to="/about/">About</AwareLink>
   </Links>}
   </Location>
-  
   <SocialLinks/>
 </Box>
 
