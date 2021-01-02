@@ -8,7 +8,9 @@ import List from "../components/list"
 import Hero from "../components/home-hero"
 import Bio from "../components/bio"
 import Box from '../components/box'
-import {Tweet, TweetBox} from '../components/tweet'
+import {TweetBox} from '../components/tweet'
+
+import { Tweet } from 'react-twitter-widgets'
 
 import '../base.css'
 
