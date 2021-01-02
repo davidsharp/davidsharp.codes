@@ -16,7 +16,7 @@ style={{
     flex:'3 1 0'
   }}>
   <p><strong>David Sharp</strong> <em>(he/him)</em> is a "code wizard" living in Brighton</p>
-  <p>David unconditionally loves JavaScript, and can often be found <a href="https://charanga.com">writing apps in exchange for money</a></p>
+  <p>David unconditionally loves JavaScript, and can often be found <a href="https://charanga.com" target='_blank'>writing apps in exchange for money</a></p>
   <p>David also pretends to be interested in design, learns Japanese 'for the culture', promises he'll one day make a video game and owns a guitar (and at least one pedal)</p>
   </div>
   <img
