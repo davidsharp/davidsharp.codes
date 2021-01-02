@@ -27,7 +27,8 @@ style={{
       margin: '.8em',
       flex: '1 0 200px',
       height: 200,
-      width: 200
+      width: 200,
+      backgroundColor: '#fedf00'
     }}
     src="https://s.gravatar.com/avatar/78b4ada96c0948d94c8d6cd573736087?s=200"
     alt="David in Kyoto, December 2016"
