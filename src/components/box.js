@@ -4,15 +4,19 @@ import React from 'react'
   header in the box, or above the box?
 */
 
-const Box = ({header,children,boxStyle={},style={}}) => <>
-<section style={{
+const Box = ({header,children,boxStyle={},style={},className='',...props}) => <>
+<section
+  className={`box ${className}`}
+  style={{
   backgroundColor:'white',
   boxShadow: '5px 5px #444',
   border:'5px solid #333',
   padding: '.8em',
   marginBottom: '8px',
   ...boxStyle
-  }}>
+  }}
+  {...props}
+>
   {header && <BoxHeader>{header}</BoxHeader>}
   <div style={style}>
   {children}

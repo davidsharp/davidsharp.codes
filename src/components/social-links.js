@@ -13,11 +13,11 @@ import {
 } from 'react-icons/si'
 
 const SocialLinks = props => <Links>
-  <A href="https://twitter.com/elitefreq"><Twitter/></A>
-  <A href="https://www.instagram.com/coin.op/"><Instagram/></A>
-  <A href="https://github.com/davidsharp"><Github/></A>
-  <A href="https://glitch.com/@davidsharp"><Glitch/></A>
-  <A href="https://www.linkedin.com/in/david-sharp-9b054361/"><LinkedIn/></A>
+  <A title="Twitter" href="https://twitter.com/elitefreq" ariaHidden><Twitter/></A>
+  <A title="Instagram" href="https://www.instagram.com/coin.op/" ariaHidden><Instagram/></A>
+  <A title="GitHub" href="https://github.com/davidsharp" ariaHidden><Github/></A>
+  <A title="Glitch" href="https://glitch.com/@davidsharp" ariaHidden><Glitch/></A>
+  <A title="LinkedIn" href="https://www.linkedin.com/in/david-sharp-9b054361/" ariaHidden><LinkedIn/></A>
 </Links>
 
 export default SocialLinks
