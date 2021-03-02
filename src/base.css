@@ -1,9 +1,11 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*/
 
 * {
   font-family: Helvetica, sans-serif;
 }
 
-p,h2,h3,strong,em {
+/*p,h2,h3,strong,em {
   font-family: 'Balsamiq Sans';
-}
+}*/
