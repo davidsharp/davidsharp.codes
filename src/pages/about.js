@@ -7,6 +7,7 @@ import Bio from '../components/bio'
 import Box from '../components/box'
 import Colour from '../components/colour'
 import A from '../components/anchor'
+import Kofi from '../components/kofi-widget'
 
 import data from '../../content/about-site.json'
 
@@ -29,6 +30,7 @@ const AboutPage = () => (
         differenceInYears(new Date(),new Date(2015,2,23))
       }{` years), building Android, iOS and Desktop apps primarily in JavaScript. Initially using Cordova and AngularJS, but these days using Electron/React and React Native`}</p>
     </Box>
+    <Kofi name={'davidsharp'} text={'Tip me!'} />
   </Layout>
 )
 
