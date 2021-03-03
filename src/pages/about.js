@@ -30,7 +30,7 @@ const AboutPage = () => (
         differenceInYears(Date.now(),new Date(2015,1,23))
       }{` years), building Android, iOS and Desktop apps primarily in JavaScript. Initially using Cordova and AngularJS, but these days using Electron/React and React Native`}</p>
     </Box>
-    <Kofi name={'davidsharp'} text={'Tip me!'} />
+    {/*<Kofi name={'davidsharp'} text={'Tip me!'} />*/}
   </Layout>
 )
 
