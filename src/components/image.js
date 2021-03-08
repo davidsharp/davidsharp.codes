@@ -1,6 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
+
+
+// TODO: implement gatsby-plugin-image
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -30,3 +33,24 @@ const Image = () => {/*
   */return null}
 
 export default Image
+
+/*
+import { graphql } from "gatsby"
+export const query = graphql`
+  {
+    file(relativePath: { eq: "images/example.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: FIXED)
+      }
+    }
+  }
+`
+// import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
+const HomePage = ({ data }) => {
+  return (
+    // <Img fixed={data.file.childImageSharp.fixed} />
+    <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
+  )
+}
+*/
