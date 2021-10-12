@@ -17,6 +17,7 @@ const NavRow = props => <Box className="navbar" boxStyle={{width:'100%'}} style=
       </span>
     </Link>
     <Link to="/about/">About</Link>
+    <Link to="/projects/">Projects</Link>
   </Links>
   <SocialLinks/>
 </Box>
