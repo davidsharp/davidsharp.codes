@@ -1,11 +1,14 @@
 import React from 'react'
 
+import {kebabCase} from 'lodash'
+
 /*
   header in the box, or above the box?
 */
 
 const Box = ({header,children,boxStyle={},style={},className='',...props}) => <>
 <section
+  id={header?kebabCase(header):undefined}
   className={`box ${className}`}
   style={{
   backgroundColor:'white',
