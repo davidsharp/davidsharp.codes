@@ -11,9 +11,11 @@ import Kofi from '../components/kofi-widget'
 
 import data from '../../content/about-site.json'
 
-import { differenceInYears } from 'date-fns'
+import { differenceInMonths } from 'date-fns'
 
 //import {startCase} from 'lodash'
+
+let diff
 
 const AboutPage = () => (
   <Layout>
@@ -35,8 +37,11 @@ const AboutPage = () => (
     </Box>*/}
     <Box header="Experience">
       <p>{/*<strong>2014</strong> - */}{`Received a 2:1 BSc(Hons) Software Engineering from University of Brighton in 2014; mostly Java-focussed, but completed modules that touched on databases, embedded systems, computer graphics and such`}</p>
-      <p>{/*<strong>2015-present</strong> - */}{`Currently working at `}<A href="https://charanga.com">{`Charanga`}</A>{`, started in 2015 (>${
-        differenceInYears(Date.now(),new Date(2015,1,23))
+      <p>{/*<strong>2015-present</strong> - */}{`Currently working at `}<A href="https://charanga.com">{`Charanga`}</A>{`, started in 2015 (${
+        diff=differenceInMonths(Date.now(),new Date(2015,1,23)),
+        Math.floor(diff/12)
+      }${
+        diff%12>6?'½':''
       } years), building Android, iOS and Desktop apps primarily in JavaScript. Initially using Cordova and AngularJS, but these days using Electron/React and React Native`}</p>
       {/*add link to resume/skills/work project breakdowns/linkedin*/}
     </Box>
