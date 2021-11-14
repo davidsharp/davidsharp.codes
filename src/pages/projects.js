@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 
 import Box from '../components/box'
 import A from '../components/anchor'
+import GH from '../components/github-link'
 
 const ProjectsPage = () => (
   <Layout>
@@ -16,7 +17,8 @@ const ProjectsPage = () => (
         <li><A href="https://twitter.com/yearinfractions">{`Year in Fractions`}</A>{` Twitter bot inspired by @year_progress, powered by Express, tweets daily how far through the year we are as a (usually approximate) fraction`}</li>
         <li><A href="https://puppetdf.glitch.me">{`PuppetDF`}</A>{`, what started as a hacky proof-of-concept that turned out to be surprisingly useful. An app that takes a URL and uses Puppeteer (a headless Chromium browser) to output a PDF`}</li>
         <li><A href="https://slice-or-substr.glitch.me">{`slice-or-substr`}</A>{`, a kind of broken toy that demonstrates how slice, substring and substr all work in JavaScript, because I can never remember`}</li>
-        <li><A href="https://github.com/davidsharp/wizzbo">{`Wizzbo`}</A>{`, a Discord bot that acts as a playground for me to try out ideas, but with the functionality to deploy subsets of commands as their own sub-bots`}</li>
+        <li><GH href="https://github.com/davidsharp/wizzbo">{`Wizzbo`}</GH>{`, a Discord bot that acts as a playground for me to try out ideas, but with the functionality to deploy subsets of commands as their own sub-bots`}</li>
+        <li><GH href="https://github.com/davidsharp/dsc-gatsby">{`This very site`}</GH>{`, a Gatsby site, running from Netlify from this repo`}</li>
       </ul>
     </Box>
   </Layout>
