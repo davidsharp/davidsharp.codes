@@ -18,7 +18,7 @@ const ProjectsPage = () => (
         <li><A href="https://puppetdf.glitch.me">{`PuppetDF`}</A>{`, what started as a hacky proof-of-concept that turned out to be surprisingly useful. An app that takes a URL and uses Puppeteer (a headless Chromium browser) to output a PDF`}</li>
         <li><A href="https://slice-or-substr.glitch.me">{`slice-or-substr`}</A>{`, a kind of broken toy that demonstrates how slice, substring and substr all work in JavaScript, because I can never remember`}</li>
         <li><GH href="https://github.com/davidsharp/wizzbo">{`Wizzbo`}</GH>{`, a Discord bot that acts as a playground for me to try out ideas, but with the functionality to deploy subsets of commands as their own sub-bots`}</li>
-        <li><GH href="https://github.com/davidsharp/dsc-gatsby">{`This very site`}</GH>{`, a Gatsby site, running from Netlify from this repo`}</li>
+        <li><GH href="https://github.com/davidsharp/davidsharp.codes">{`This very site`}</GH>{`, a Gatsby site running on Netlify`}</li>
       </ul>
     </Box>
   </Layout>
