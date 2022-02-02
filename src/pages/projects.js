@@ -19,6 +19,7 @@ const ProjectsPage = () => (
         <li><A href="https://slice-or-substr.glitch.me">{`slice-or-substr`}</A>{`, a kind of broken toy that demonstrates how slice, substring and substr all work in JavaScript, because I can never remember`}</li>
         <li><GH href="https://github.com/davidsharp/wizzbo">{`Wizzbo`}</GH>{`, a Discord bot that acts as a playground for me to try out ideas, but with the functionality to deploy subsets of commands as their own sub-bots`}</li>
         <li><GH href="https://github.com/davidsharp/davidsharp.codes">{`This very site`}</GH>{`, a Gatsby site running on Netlify`}</li>
+        <li><A href="https://glitch.com/~christmas-eve-eve">{`Christmas Eve Eve`}</A>{`, a very dumb single-page thing based on an old XKCD`}</li>
       </ul>
     </Box>
   </Layout>
