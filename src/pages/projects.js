@@ -21,6 +21,16 @@ const ProjectsPage = () => (
         <li><GH href="https://github.com/davidsharp/davidsharp.codes">{`This very site`}</GH>{`, a Gatsby site running on Netlify`}</li>
         <li><A href="https://glitch.com/~christmas-eve-eve">{`Christmas Eve Eve`}</A>{`, a very dumb single-page thing based on an old XKCD`}</li>
       </ul>
+      <hr/>
+      <p>Here's some <GH href="https://github.com/matryer/xbar">bitbar/xbar</GH> plugins for macOS (all GitHub gists):</p>
+      <ul>
+        <li><A href="https://gist.github.com/davidsharp/b57d34dba2124bc8d440a60699b82a4a">{`Weather`}</A>{`, a weather plugin that uses `}<A href="https://wttr.in">{`wttr.in`}</A></li>
+        <li><A href="https://gist.github.com/davidsharp/767f69c090c7381af70ff50325f56bca">{`Spotify`}</A>{`, a plugin that displays the currently playing song, with some shortcuts and controls`}</li>
+        <li><A href="https://gist.github.com/davidsharp/707417fdc85b3128f91bb075fb17fbcc">{`Shuffle Spotify`}</A>{`, a plugin that adds a shuffle/unshuffle button to the menu bar`}</li>
+        <li><A href="https://gist.github.com/davidsharp/e0bfa84a657ef113b3d59f24767b8314">{`COVID Stats`}</A>{`, a plugin that uses `}<A href="https://diseases.sh">{`diseases.sh`}</A>{` to get the country's COVID stats`}</li>
+        <li><A href="https://gist.github.com/davidsharp/209485fbb7c4d6cbbb362c6139e38f66">{`Toggle Mono/Stereo audio`}</A>{` (may no longer work), a plugin that adds a button to toggle accessibility options for mono/stereo audio`}</li>
+        <li><A href="https://gist.github.com/davidsharp/164c69bbe60925122c727f526eaeab89">{`Clipboard Spy`}</A>{`, a plugin that shows what's on your clipboard, with an option to clear it`}</li>
+      </ul>
     </Box>
   </Layout>
 )
