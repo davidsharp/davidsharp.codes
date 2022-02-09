@@ -6,7 +6,9 @@ const StyleProperties = {
   colour: [
     '#333',
     'white',
-    '#fedf00'
+    '#fedf00',
+    '#4c61ff',
+    '#444',
   ]
 }
 
