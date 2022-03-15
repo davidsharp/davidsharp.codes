@@ -23,13 +23,13 @@ const Header = ({ siteTitle }) => (
         display: 'flex'
       }}
     >
-      <h1 style={{ margin: 0, paddingRight: '.5em', textAlign: 'center', fontSize: '4rem', fontFamily: 'Helvetica, sans-serif' }}>
+      <h1 style={{ margin: 0, paddingRight: '.5em', textAlign: 'center', fontSize: '4rem', fontFamily: 'Fredoka One, Helvetica, sans-serif' }}>
         <Link
           to="/"
-          className="outline"
+          className="xoutline"
           style={{
-            color: Properties.colour[1],
-            textShadow: `.3rem .3rem ${Properties.colour[0]}`,
+            color: Properties.colour[3],
+            textShadow: `rgba(0,0,0,.8) 5px 5px 0`,
             textDecoration: `none`,
           }}
         >

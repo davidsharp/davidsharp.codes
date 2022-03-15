@@ -7,7 +7,7 @@ const StyleProperties = {
     '#333',
     'white',
     '#fedf00',
-    '#4c61ff',
+    '#0058ff',//<- blue | purple -> '#4c61ff',
     '#444',
   ]
 }

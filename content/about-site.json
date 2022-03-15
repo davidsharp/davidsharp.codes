@@ -1,6 +1,6 @@
 {
   "background":"fedf00",
-  "typeface":"Helvetica",
+  "typeface":"Fredoka One in the headings and Balsamiq Sans everywhere else",
   "built using": "Gatsby",
   "running on": "Netlify",
   "--note": "above code be generated?"

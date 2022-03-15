@@ -1,11 +1,26 @@
-/*
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-*/
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Fredoka+One&display=swap');
 
-* {
-  font-family: Helvetica, sans-serif;
+p,h3,strong,em,ul,.navbar * {
+  font-family: 'Balsamiq Sans', Helvetica, sans-serif;
+}
+
+h2 {
+  color: #0058ff;
+  font-family: 'Fredoka One', 'Balsamiq Sans', Helvetica, sans-serif;
+}
+
+footer {
+  font-family: 'Fredoka One', 'Balsamiq Sans', Helvetica, sans-serif;
 }
 
 /*p,h2,h3,strong,em {
   font-family: 'Balsamiq Sans';
 }*/
+
+@font-face {
+  /* somepx's lockjaw v1 */
+  font-family: Lockjaw;
+  src: url('./fonts/Lockjaw.ttf');
+}
+
+.lockjaw {font-family: Lockjaw}

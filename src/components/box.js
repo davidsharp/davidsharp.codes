@@ -12,8 +12,9 @@ const Box = ({header,children,boxStyle={},style={},className='',...props}) => <>
   className={`box ${className}`}
   style={{
   backgroundColor:'white',
-  boxShadow: '5px 5px #444',
+  boxShadow: '5px 5px #333',
   border:'5px solid #333',
+  borderRadius: '1em',
   padding: '.8em',
   marginBottom: '8px',
   ...boxStyle
@@ -28,8 +29,9 @@ const Box = ({header,children,boxStyle={},style={},className='',...props}) => <>
 </>
 
 const BoxHeader = ({children}) => <h2 style={{
-  marginBottom: '.8em',
-  borderBottom: 'solid #333'
+  marginBottom: '.2em',
+  borderBottom: 'solid #333',
+  paddingBottom: '.3em'
 }}>{children}</h2>
 
 export default Box
