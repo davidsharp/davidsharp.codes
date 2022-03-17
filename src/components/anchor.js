@@ -2,6 +2,7 @@ import React from 'react'
 
 // helper for external links
 const Anchor = ({title,children,ariaHidden=false,...props}) => <a
+  className="anchor"
   target="_blank"
   rel="noopener"
   aria-label={title}

@@ -13,6 +13,14 @@ footer {
   font-family: 'Fredoka One', 'Balsamiq Sans', Helvetica, sans-serif;
 }
 
+a.anchor {
+  text-decoration: wavy underline #0058ff;
+}
+a.anchor:hover {
+  color: #0058ff;
+  text-decoration: wavy underline black;
+}
+
 /*p,h2,h3,strong,em {
   font-family: 'Balsamiq Sans';
 }*/
