@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Fredoka+One&display=swap');
 
+:root {
+  --blue: #0058ff;
+}
+
 p,h3,strong,em,ul,.navbar * {
   font-family: 'Balsamiq Sans', Helvetica, sans-serif;
 }
 
 h2 {
-  color: #0058ff;
+  color: var(--blue);
   font-family: 'Fredoka One', 'Balsamiq Sans', Helvetica, sans-serif;
 }
 
@@ -14,11 +18,12 @@ footer {
 }
 
 a.anchor {
-  text-decoration: wavy underline #0058ff;
+  /*font-style: italic;*/
+  text-decoration: wavy underline var(--blue);
 }
 a.anchor:hover {
-  color: #0058ff;
-  text-decoration: wavy underline black;
+  color: var(--blue);
+  text-decoration-color: black;
 }
 
 /*p,h2,h3,strong,em {

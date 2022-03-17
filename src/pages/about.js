@@ -24,7 +24,7 @@ const AboutPage = () => (
     <Box header="About this site">
       <p>{`This site was built using ${data['built using']} and is running on ${data['running on']}`}</p>
       <p>{`The typeface is ${data.typeface}`}</p>
-      <p>{`The palette uses `}<Colour hex={data.background.toUpperCase()}/>{` for the background`}</p>
+      <p>{`The palette uses `}<Colour hex={data.background.toUpperCase()}/>{` for the background, and `}<Colour hex={'0058ff'}/>{` for titles, underlines, etc`}</p>
     </Box>
     {/* Moving to its own page, point at selected ones here? and link to projects page
     <Box header="Selected Projects">
