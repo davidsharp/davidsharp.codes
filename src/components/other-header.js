@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {'DSC'}
+          {'DS'}
         </Link>
       </h1>
       <NavRow/>

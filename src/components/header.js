@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {/*siteTitle*/`David Sharp`}
         </Link>
       </h1>
     </div>
