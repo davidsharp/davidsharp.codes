@@ -6,9 +6,9 @@ const StyleProperties = {
   colour: [
     '#333',
     'white',
-    '#fedf00',
-    '#0058ff',//<- blue | purple -> '#4c61ff',
-    '#444',
+    'lightpink',//'#fedf00',
+    '#fedf00',//'#0058ff',//<- blue | purple -> '#4c61ff',
+    'tomato',//'#444', // change to a red-orange?
   ]
 }
 
