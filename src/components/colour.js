@@ -8,7 +8,7 @@ const Colour = ({hex}) => <>
     width:'.8em',
     border:'solid #333',
     display: 'inline-block'
-  }}/>#{hex}</A>
+  }}/>#{hex.toUpperCase()}</A>
 </>
 
 export default Colour

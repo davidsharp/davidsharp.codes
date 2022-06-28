@@ -2,6 +2,7 @@
 
 :root {
   --blue: #0058ff;
+  --grey: #557;
 }
 
 p,h3,strong,em,ul,.navbar * {
@@ -19,11 +20,12 @@ footer {
 
 a.anchor {
   /*font-style: italic;*/
+  color: var(--grey);
   text-decoration: wavy underline var(--blue);
 }
 a.anchor:hover {
   color: var(--blue);
-  text-decoration-color: black;
+  text-decoration-color: var(--grey);
 }
 
 /*p,h2,h3,strong,em {
