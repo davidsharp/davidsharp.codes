@@ -25,11 +25,11 @@ const Header = ({ siteTitle }) => (
           className="xoutline"
           style={{
             color: Properties.colour[3],
-            textShadow: `rgba(0,0,0,.8) 5px 5px 0`,
+            textShadow: `${Properties.colour[4]} 5px 5px 0`,//`rgba(0,0,0,.8) 5px 5px 0`,
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {/*siteTitle*/`David Sharp`}
         </Link>
       </h1>
     </div>

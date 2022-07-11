@@ -3,6 +3,7 @@
 :root {
   --blue: #0058ff;
   --grey: #557;
+  --yellow: #fedf00;
 }
 
 p,h3,strong,em,ul,.navbar * {
@@ -10,7 +11,7 @@ p,h3,strong,em,ul,.navbar * {
 }
 
 h2 {
-  color: var(--blue);
+  color: tomato;
   font-family: 'Fredoka One', 'Balsamiq Sans', Helvetica, sans-serif;
 }
 
@@ -20,12 +21,14 @@ footer {
 
 a.anchor {
   /*font-style: italic;*/
-  color: var(--grey);
-  text-decoration: wavy underline var(--blue);
+  /*color: var(--grey);*/
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+  text-decoration-color: var(--yellow);
 }
 a.anchor:hover {
-  color: var(--blue);
-  text-decoration-color: var(--grey);
+  color: tomato;
+  text-decoration-color: var(--yellow);
 }
 
 /*p,h2,h3,strong,em {
