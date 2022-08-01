@@ -13,14 +13,15 @@ const Link = styled(props => <GLink {...props} />)`
   &[aria-current="page"]{border-bottom:solid}
 `
 
-const Navbar = styled(props => <Box {...props} />)`
-  display: flex;
-  flexDirection: row;
-  justifyContent: space-around;
+const Navbar = styled(props => <Box boxStyle={{width:'100%'}} style={{
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'space-around',
+}} {...props} />)`
   font-family: 'Balsamiq Sans', Helvetica, sans-serif;
 `
 
-const NavRow = props => <Navbar boxStyle={{width:'100%'}}>
+const NavRow = props => <Navbar>
   <Links>
     <Link to="/" aria-label="home" title="home">
       <span aria-hidden="true">
