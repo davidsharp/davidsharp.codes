@@ -2,14 +2,25 @@ import React from 'react'
 import Box from './box'
 import Links from './links'
 import SocialLinks from './social-links'
-import {Link} from 'gatsby'
+import {Link as GLink} from 'gatsby'
 import {
   AiFillHome as Home
 } from 'react-icons/ai'
 
-import './current-page.css'
+import styled from 'styled-components'
 
-const NavRow = props => <Box className="navbar" boxStyle={{width:'100%'}} style={{display:'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
+const Link = styled(props => <GLink {...props} />)`
+  &[aria-current="page"]{border-bottom:solid}
+`
+
+const Navbar = styled(props => <Box {...props} />)`
+  display: flex;
+  flexDirection: row;
+  justifyContent: space-around;
+  font-family: 'Balsamiq Sans', Helvetica, sans-serif;
+`
+
+const NavRow = props => <Navbar boxStyle={{width:'100%'}}>
   <Links>
     <Link to="/" aria-label="home" title="home">
       <span aria-hidden="true">
@@ -20,6 +31,6 @@ const NavRow = props => <Box className="navbar" boxStyle={{width:'100%'}} style=
     <Link to="/projects/">Projects</Link>
   </Links>
   <SocialLinks/>
-</Box>
+</Navbar>
 
 export default NavRow
