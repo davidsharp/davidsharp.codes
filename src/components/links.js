@@ -1,8 +1,7 @@
 import React from 'react'
+import styled from 'styled-components'
 
-import "./icon.css"
-
-const Links = props => <div className="links" style={{textAlign:'center'}}>
+const Links = props => <Wrapper>
   {props.components ? props.components.map((Link,i)=><>
       {i!=0 && `・`}
       <Link/>
@@ -11,6 +10,17 @@ const Links = props => <div className="links" style={{textAlign:'center'}}>
     {i!=0 && `・`}
     {child}
   </>)}
-</div>
+</Wrapper>
+
+// Can I override the <Link> components themselves?
+//  Consider moving the logic elsewhere?
+const Wrapper = styled.div`
+text-align: center;
+
+& a:link, & a:visited, & a:hover, & a:active {
+  color: black;
+  text-decoration: none;
+}
+`
 
 export default Links
