@@ -4,6 +4,8 @@
   --blue: #0058ff;
   --grey: #557;
   --yellow: #fedf00;
+  --pink: lightpink;
+  --tomato: tomato;
 }
 
 p,h3,strong,em,ul,.navbar * {
@@ -18,29 +20,3 @@ h2 {
 footer {
   font-family: 'Fredoka One', 'Balsamiq Sans', Helvetica, sans-serif;
 }
-
-a.anchor {
-  /*font-style: italic;*/
-  /*color: var(--grey);*/
-  text-decoration-style: wavy;
-  text-decoration-line: underline;
-  text-decoration-color: var(--yellow);
-}
-a.anchor:hover {
-  color: tomato;
-  text-decoration-color: var(--yellow);
-}
-
-/*p,h2,h3,strong,em {
-  font-family: 'Balsamiq Sans';
-}*/
-
-/*
-@font-face {
-  /* somepx's lockjaw v1 * /
-  font-family: Lockjaw;
-  src: url('./fonts/Lockjaw.ttf');
-}
-
-.lockjaw {font-family: Lockjaw}
-*/

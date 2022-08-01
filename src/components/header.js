@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import Properties from '../properties';
-import './outline.css'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -22,7 +21,6 @@ const Header = ({ siteTitle }) => (
       <h1 style={{ margin: 0, width: '100%', textAlign: 'center', fontSize: '4rem', fontFamily: 'Fredoka One, Helvetica, sans-serif' }}>
         <Link
           to="/"
-          className="xoutline"
           style={{
             color: Properties.colour[3],
             textShadow: `${Properties.colour[4]} 5px 5px 0`,//`rgba(0,0,0,.8) 5px 5px 0`,
