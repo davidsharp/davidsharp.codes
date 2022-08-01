@@ -1,19 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// Uses Divider span, so dividing dots aren't part of Link
 const Links = props => <Wrapper>
-  {props.components ? props.components.map((Link,i)=><>
-      {i!=0 && `・`}
+  {props.components ? props.components.map((Link,i)=><Divider>
       <Link/>
-    </>
-  ):React.Children.map(props.children,(child,i)=><>
-    {i!=0 && `・`}
+    </Divider>
+  ):React.Children.map(props.children,(child,i)=><Divider>
     {child}
-  </>)}
+  </Divider>)}
 </Wrapper>
 
-// Can I override the <Link> components themselves?
-//  Consider moving the logic elsewhere?
+const Divider = styled.span`
+  &:not(:first-child)::before{content: "・"}
+`
+
 const Wrapper = styled.div`
 text-align: center;
 
