@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Box from './box'
-import Anchor from './anchor'
+import A from './anchor'
 
 const Bio = ({header=false}) => <Box
 header={header?"About David":null}
@@ -45,12 +45,6 @@ const P = styled.p`
 
 const Em = styled.em`
   font-style: italic;
-`
-
-const A = styled(Anchor)`
-&:link, &:visited, &:hover, &:active {
-  color: inherit
-}
 `
 
 export default Bio

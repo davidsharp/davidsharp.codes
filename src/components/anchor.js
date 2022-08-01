@@ -6,6 +6,10 @@ const A = styled.a`
   text-decoration-line: underline;
   text-decoration-color: var(--yellow);
 
+  &:link, &:visited, &:active {
+    color: inherit
+  }
+
   &:hover {
     color: tomato;
     text-decoration-color: var(--yellow);
