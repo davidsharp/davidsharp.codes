@@ -3,16 +3,18 @@ import styled from 'styled-components'
 
 // Uses Divider span, so dividing dots aren't part of Link
 const Links = props => <Wrapper>
-  {props.components ? props.components.map((Link,i)=><Divider>
+  {props.components ? props.components.map((Link,i)=><>
+      {i!=0 && <Divider/>}
       <Link/>
-    </Divider>
-  ):React.Children.map(props.children,(child,i)=><Divider>
+    </>
+  ):React.Children.map(props.children,(child,i)=><>
+    {i!=0 && <Divider/>}
     {child}
-  </Divider>)}
+  </>)}
 </Wrapper>
 
-const Divider = styled.span`
-  &:not(:first-child)::before{content: "・"}
+const Divider = styled(props => <span aria-hidden="true" {...props}>{`・`}</span>)`
+  /*&:not(:first-child)::before{content: "・"}*/
 `
 
 const Wrapper = styled.div`
