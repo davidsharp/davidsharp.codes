@@ -7,7 +7,8 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql, Link as GLink } from "gatsby"
+import styled from 'styled-components'
 
 import HomeHeader from "./header"
 import Header from './other-header'
@@ -45,6 +46,12 @@ const Layout = ({ home, children }) => {
     </>
   )
 }
+
+const Link = styled(props=><GLink {...props}/>)`
+  &:link, &:visited, &:active {
+    color: inherit
+  }
+`
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
