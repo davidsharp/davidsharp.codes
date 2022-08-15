@@ -10,6 +10,7 @@ import {
   SiGithub as Github,
   SiGlitch as Glitch,
   SiLinkedin as LinkedIn,
+  SiItchdotio as ItchIo,
 } from 'react-icons/si'
 
 const SocialLinks = props => <Links>
@@ -18,6 +19,8 @@ const SocialLinks = props => <Links>
   <A title="GitHub" href="https://github.com/davidsharp" ariaHidden><Github/></A>
   <A title="Glitch" href="https://glitch.com/@davidsharp" ariaHidden><Glitch/></A>
   <A title="LinkedIn" href="https://www.linkedin.com/in/david-sharp-9b054361/" ariaHidden><LinkedIn/></A>
+  <A title="Itch.io" href="https://davidsharp.itch.io/" ariaHidden><ItchIo/></A>
+  {/*TODO - add cohost link*/}
 </Links>
 
 export default SocialLinks
