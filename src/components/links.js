@@ -20,8 +20,13 @@ const Divider = styled(props => <span aria-hidden="true" {...props}>{`・`}</spa
 const Wrapper = styled.div`
 text-align: center;
 
-& a:link, & a:visited, & a:hover, & a:active {
+& a:link, & a:visited {
   color: black;
+  text-decoration: none;
+}
+
+& a:hover, & a:active {
+  color: tomato;
   text-decoration: none;
 }
 `

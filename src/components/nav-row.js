@@ -10,7 +10,7 @@ import {
 import styled from 'styled-components'
 
 const Link = styled(props => <GLink {...props} />)`
-  &[aria-current="page"]{border-bottom:solid}
+  &[aria-current="page"]{border-bottom:solid;border-color:black;}
 `
 
 const Navbar = styled(props => <Box boxStyle={{width:'100%'}} style={{
