@@ -18,7 +18,7 @@ style={{
   }}>
   <p><strong>David Sharp</strong> <em>(he/him)</em> is a "code wizard" living in Brighton</p>
   <p>David unconditionally loves JavaScript, and can often be found <A href="https://charanga.com">writing apps in exchange for money</A></p>
-  <p>David also pretends to be interested in design, learns Japanese 'for the culture', promises he'll one day make a video game and owns a guitar (and at least one pedal)</p>
+  <p>David also pretends to be interested in design, learns Japanese 'for the culture', promises he'll one day make a video game (<A href="https://davidsharp.itch.io/puff-puff-pass-british-bulldog">solo this time</A>) and owns a guitar (and at least one pedal)</p>
   </div>
   <img
     style={{
