@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 import Box from '../components/box'
 import A from '../components/anchor'
-import {GH, Tw} from '../components/social-link'
+import {GH, Tw, Itch} from '../components/social-link'
 
 const ProjectsPage = () => (
   <Layout>
@@ -30,6 +30,12 @@ const ProjectsPage = () => (
         <li><A href="https://gist.github.com/davidsharp/e0bfa84a657ef113b3d59f24767b8314">{`COVID Stats`}</A>{`, a plugin that uses `}<A href="https://diseases.sh">{`diseases.sh`}</A>{` to get the country's COVID stats`}</li>
         <li><A href="https://gist.github.com/davidsharp/209485fbb7c4d6cbbb362c6139e38f66">{`Toggle Mono/Stereo audio`}</A>{` (may no longer work), a plugin that adds a button to toggle accessibility options for mono/stereo audio`}</li>
         <li><A href="https://gist.github.com/davidsharp/164c69bbe60925122c727f526eaeab89">{`Clipboard Spy`}</A>{`, a plugin that shows what's on your clipboard, with an option to clear it`}</li>
+      </ul>
+    </Box>
+    <Box header="Games">
+      <p>I've casually toyed with making small games here and there, and here's what has stuck:</p>
+      <ul>
+        <li><Itch href="https://davidsharp.itch.io/puff-puff-pass-british-bulldog">British Bulldog</Itch>, a game made in collaboration with a few friends with minimal communication, built in the Lua-based framework Love2D, most of my work was refactoring, completing features and polishing, but I also added a splash screen inspired by old cracktros</li>
       </ul>
     </Box>
   </Layout>
