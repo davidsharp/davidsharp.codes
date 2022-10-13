@@ -10,7 +10,7 @@ import {GH, Tw, Itch} from '../components/social-link'
 const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
-    {/* todo - add actual projects */}
+    {/* todo - section picker*/}
     <Box header="Personal Projects">
       <p>A lot of small toy projects can be found on my <A href="https://github.com/davidsharp">GitHub</A> and <A href="https://glitch.com/@davidsharp">Glitch</A> (and a number of small plugins and scripts can be found on my <A href="https://gists.github.com/davidsharp">Gists</A>), mostly these exist to play around with some tech or solve a very small problem for myself. Here's an assortment of things that I'm proud of though:</p>
       <ul>
