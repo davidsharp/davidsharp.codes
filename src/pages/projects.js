@@ -30,7 +30,7 @@ const ProjectsPage = () => (
       </ul>
     </Box>
     <Box header="Other coding miscellany">
-      <p>I've participated in <A href="https://adventofcode.com">Advent of Code</A> for a number of years (but have yet to _fully_ complete a year), usually in terse JavaScript, and keep my code here: <GH href="https://github.com/davidsharp/advent-of-code">davidsharp/advent-of-code</GH></p>
+      <p>I've participated in <A href="https://adventofcode.com">Advent of Code</A> for a number of years (but have yet to <em>fully</em> complete a year), usually in terse JavaScript, and keep my code here: <GH href="https://github.com/davidsharp/advent-of-code">davidsharp/advent-of-code</GH></p>
       <hr/>
       <p>Here's some <GH href="https://github.com/matryer/xbar">bitbar/xbar</GH> plugins for macOS (all GitHub gists):</p>
       <ul>
