@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 import Box from '../components/box'
 import A from '../components/anchor'
-import {GH, Tw, Itch} from '../components/social-link'
+import {GH, Tw, Gl, Itch} from '../components/social-link'
 
 const ProjectsPage = () => (
   <Layout>
@@ -19,7 +19,7 @@ const ProjectsPage = () => (
         <li><A href="https://slice-or-substr.glitch.me">{`slice-or-substr`}</A>{`, a kind of broken toy that demonstrates how slice, substring and substr all work in JavaScript, because I can never remember`}</li>
         <li><GH href="https://github.com/davidsharp/wizzbo">{`Wizzbo`}</GH>{`, a Discord bot that acts as a playground for me to try out ideas, but with the functionality to deploy subsets of commands as their own sub-bots`}</li>
         <li><GH href="https://github.com/davidsharp/davidsharp.codes">{`This very site`}</GH>{`, a Gatsby site running on Netlify`}</li>
-        <li><A href="https://glitch.com/~christmas-eve-eve">{`Christmas Eve Eve`}</A>{`, a very dumb single-page thing based on an old XKCD`}</li>
+        <li><Gl href="https://glitch.com/~christmas-eve-eve">{`Christmas Eve Eve`}</Gl>{`, a very dumb single-page thing based on an old XKCD`}</li>
       </ul>
     </Box>
     <Box header="Games">
@@ -30,6 +30,8 @@ const ProjectsPage = () => (
       </ul>
     </Box>
     <Box header="Other coding miscellany">
+      <p>I've participated in <A href="https://adventofcode.com">Advent of Code</A> for a number of years (but have yet to _fully_ complete a year), usually in terse JavaScript, and keep my code here: <GH href="https://github.com/davidsharp/advent-of-code">davidsharp/advent-of-code</GH></p>
+      <hr/>
       <p>Here's some <GH href="https://github.com/matryer/xbar">bitbar/xbar</GH> plugins for macOS (all GitHub gists):</p>
       <ul>
         <li><A href="https://gist.github.com/davidsharp/b57d34dba2124bc8d440a60699b82a4a">{`Weather`}</A>{`, a weather plugin that uses `}<A href="https://wttr.in">{`wttr.in`}</A></li>
