@@ -16,7 +16,7 @@ const Snake = () => <Helmet>
           document.addEventListener('keydown', e => game.listen(e.key))
           setInterval(() => {
             game.tick()
-          }, 300);
+          }, 500);
         }
 
         const init = () => {
