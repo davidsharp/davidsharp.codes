@@ -22,7 +22,7 @@
     "react-twitter-widgets": "^1.10.0"
   },
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   },
   "devDependencies": {
     "prettier": "^2.4.1"
