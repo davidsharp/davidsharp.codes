@@ -28,10 +28,14 @@ const ProjectsPage = () => (
       </ul>
     </Box>
     <Box header="Games">
-      <p>I've casually toyed with making small games here and there, and here's what has stuck:</p>
+      <p>I've casually toyed with making small games here and there (which can also be found on <Itch href="https://davidsharp.itch.io">my Itch.io</Itch>), and here's what has stuck:</p>
       <ul>
         <li><Itch href="https://davidsharp.itch.io/puff-puff-pass-british-bulldog">British Bulldog</Itch>, a game made in collaboration with a few friends with minimal communication, built in the Lua-based framework <A href="https://love2d.org/">LÖVE</A>, most of my work was refactoring, completing features and polishing, but I also added a splash screen inspired by old cracktros</li>
         <li><Itch href="https://davidsharp.itch.io/build-jam">Build-n-Blocks</Itch>, a game made as part of a small "Build" themed game jam in a fortnight, also built in <A href="https://love2d.org/">LÖVE</A>. The game is a 1-bit falling block puzzle game, with a Gameboy RPG-esque overworld</li>
+      </ul>
+      <p>I've also started entering a few small game jams, to experiment with prototypes and build the habit of finishing small projects:</p>
+      <ul>
+        <li><Itch href="https://davidsharp.itch.io/pongaconda">Pongaconda</Itch>, a rough prototype of a game combining Pong and Snake, built in a few hours for PongJam</li>
       </ul>
     </Box>
     <Box header="Other coding miscellany">
