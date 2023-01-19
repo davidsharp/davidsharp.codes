@@ -25,7 +25,7 @@ const ProjectsPage = () => (
         <li><Gl href="https://glitch.com/~christmas-eve-eve">{`Christmas Eve Eve`}</Gl>{`, a very dumb single-page thing based on an old XKCD`}</li>
         <li><A href="https://puppetdf.glitch.me">{`PuppetDF`}</A>{`, what started as a hacky proof-of-concept that turned out to be surprisingly useful. An app that takes a URL and uses Puppeteer (a headless Chromium browser) to output a PDF`}</li>
         <li><A href="https://slice-or-substr.glitch.me">{`slice-or-substr`}</A>{`, a kind of broken toy that demonstrates how slice, substring and substr all work in JavaScript, because I can never remember`}</li>
-        <li><Gl href="https://glitch.com/~doushi-flash">{`Doushi Flash`}</Gl>{`, a Japanese verb flash card generator. Generates an image with a random Japanese verb, it's translation and a couple of conjugations`}</li>
+        <li><Gl href="https://glitch.com/~doushi-flash">{`Doushi Flash`}</Gl>{`, a Japanese verb flashcard generator. Generates an image with a random Japanese verb, its translation and a couple of conjugations`}</li>
       </ul>
     </Box>
     <Box header="Games">
