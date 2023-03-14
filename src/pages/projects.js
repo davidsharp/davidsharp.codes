@@ -38,6 +38,7 @@ const ProjectsPage = () => (
       <p>I've also started entering a few small game jams, to experiment with prototypes and build the habit of finishing small projects:</p>
       <ul>
         <li><Itch href="https://davidsharp.itch.io/pongaconda">Pongaconda</Itch>, a rough prototype of a game combining Pong and Snake, built in a few hours for PongJam</li>
+        <li><Itch href="https://davidsharp.itch.io/bunslinger">Bunslinger at High Noon</Itch>, an arcade-y restaurant sim game in the style of a Nokia 3310 for Nokia Jam 5</li>
       </ul>
     </Box>
     <Box header="Other coding miscellany">
