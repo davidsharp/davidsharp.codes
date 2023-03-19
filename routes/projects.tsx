@@ -5,7 +5,7 @@ import Box from '../src/components/box.jsx'
 import A from '../src/components/anchor.jsx'
 import {GH, Tw, Gl, Itch} from '../src/components/social-link.jsx'
 
-//import Snake from '../src/components/snake'
+//import Snake from '../src/components/snake.jsx'
 
 const Snake = null
 
