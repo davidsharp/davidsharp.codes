@@ -1,13 +1,13 @@
-import React from "react"
+import Layout from "../src/components/layout.jsx"
+import SEO from "../src/components/seo.jsx"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Box from '../src/components/box.jsx'
+import A from '../src/components/anchor.jsx'
+import {GH, Tw, Gl, Itch} from '../src/components/social-link.jsx'
 
-import Box from '../components/box'
-import A from '../components/anchor'
-import {GH, Tw, Gl, Itch} from '../components/social-link'
+//import Snake from '../src/components/snake'
 
-import Snake from '../components/snake'
+const Snake = null
 
 const ProjectsPage = () => (
   <Layout>

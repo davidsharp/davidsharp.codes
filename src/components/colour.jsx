@@ -1,5 +1,4 @@
-import React from 'react'
-import A from './anchor'
+import A from './anchor.jsx'
 
 const Colour = ({hex}) => <>
   <A href={`https://www.colorhexa.com/${hex}`}><div style={{

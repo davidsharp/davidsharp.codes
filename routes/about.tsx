@@ -1,19 +1,17 @@
-import React from "react"
+import Layout from "../src/components/layout.jsx"
+import SEO from "../src/components/seo.jsx"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Bio from '../src/components/bio.jsx'
+import Box from '../src/components/box.jsx'
+import Colour from '../src/components/colour.jsx'
+import A from '../src/components/anchor.jsx'
+import Kofi from '../src/components/kofi-widget.jsx'
 
-import Bio from '../components/bio'
-import Box from '../components/box'
-import Colour from '../components/colour'
-import A from '../components/anchor'
-import Kofi from '../components/kofi-widget'
+import data from '../content/about-site.js'
 
-import data from '../../content/about-site.json'
+import { differenceInMonths } from 'npm:date-fns'
 
-import { differenceInMonths } from 'date-fns'
-
-//import {startCase} from 'lodash'
+import startCase from 'npm:lodash.startcase'
 
 let diff
 
