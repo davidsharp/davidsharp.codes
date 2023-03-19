@@ -5,7 +5,7 @@ import Bio from '../src/components/bio.jsx'
 import Box from '../src/components/box.jsx'
 import Colour from '../src/components/colour.jsx'
 import A from '../src/components/anchor.jsx'
-import Kofi from '../src/components/kofi-widget.jsx'
+import Kofi from '../islands/kofi-widget.jsx'
 
 import data from '../content/about-site.js'
 
@@ -18,6 +18,7 @@ let diff
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
+    <Kofi/>
     <Bio header/>
     <Box header="About this site">
       <p>{`This site was built using ${data['built using']} and is running on ${data['running on']}`}</p>

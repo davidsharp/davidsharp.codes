@@ -1,5 +1,3 @@
-// todo, move to islands
-
 import {useEffect} from 'preact/hooks';
 export default function Kofi({name='davidsharp',text='Tip Me',backgroundColor='#fcbf47',textColor='#323842'}){
   const widgetScript = (`console.log('Donate @ ko-fi.com/${name}')
@@ -14,5 +12,6 @@ export default function Kofi({name='davidsharp',text='Tip Me',backgroundColor='#
     (new Function(`${script};${widgetScript}`))()
   }))
 
-  return null
+  // need to output an element to render
+  return <span></span>
 }
