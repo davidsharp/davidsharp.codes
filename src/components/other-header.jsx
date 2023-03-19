@@ -1,13 +1,6 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-
-import Properties from '../properties';
-import './outline.css'
-import NavRow from './nav-row.js'
-import Box from "./box";
-import Links from './links'
-import SocialLinks from "./social-links";
+import Properties from '../properties.js';
+//import './outline.css'
+import NavRow from './nav-row.jsx'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -24,8 +17,8 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0, paddingRight: '.5em', textAlign: 'center', fontSize: '4rem', fontFamily: 'Fredoka One, Helvetica, sans-serif' }}>
-        <Link
-          to="/"
+        <a
+          href="./"
           className="xoutline"
           style={{
             color: Properties.colour[3],
@@ -34,19 +27,11 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {'D'}
-        </Link>
+        </a>
       </h1>
       <NavRow/>
     </span>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

@@ -1,3 +1,5 @@
+// todo, move to islands
+
 import React from 'react';
 import Helmet from 'react-helmet';
 

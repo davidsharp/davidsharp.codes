@@ -1,6 +1,4 @@
-import React from 'react'
-
-import {kebabCase} from 'lodash'
+import kebabCase from 'npm:lodash.kebabcase'
 
 /*
   header in the box, or above the box?

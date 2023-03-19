@@ -1,8 +1,7 @@
-import React from 'react'
-import Box from './box'
-import A from './anchor'
+import Box from './box.jsx'
+import A from './anchor.jsx'
 
-import './bio.css'
+//import './bio.css'
 
 const Bio = ({header=false}) => <Box
 header={header?"About David":null}

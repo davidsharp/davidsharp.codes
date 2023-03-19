@@ -5,7 +5,7 @@ import {
   SiGlitch as Glitch,
   SiLinkedin as LinkedIn,
   SiItchdotio as ItchIo,
-} from 'react-icons/si'
+} from 'npm:react-simple-icons'
 
 import React from 'react'
 import A from './anchor'

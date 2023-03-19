@@ -1,14 +1,9 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-
-import Properties from '../properties';
-import './outline.css'
+import Properties from '../properties.js';
+//import './outline.css'
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      //background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -20,28 +15,20 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0, width: '100%', textAlign: 'center', fontSize: '4rem', fontFamily: 'Fredoka One, Helvetica, sans-serif' }}>
-        <Link
-          to="/"
+        <a
+          href="/"
           className="xoutline"
           style={{
             color: Properties.colour[3],
-            textShadow: `${Properties.colour[4]} 5px 5px 0`,//`rgba(0,0,0,.8) 5px 5px 0`,
+            textShadow: `${Properties.colour[4]} 5px 5px 0`,
             textDecoration: `none`,
           }}
         >
-          {/*siteTitle*/`David Sharp`}
-        </Link>
+          {`David Sharp`}
+        </a>
       </h1>
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

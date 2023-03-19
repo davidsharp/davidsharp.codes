@@ -1,5 +1,3 @@
-import React from 'react'
-
 // helper for external links
 const Anchor = ({title,children,ariaHidden=false,...props}) => <a
   className="anchor"

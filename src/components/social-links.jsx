@@ -1,17 +1,20 @@
-import React from 'react'
-import Links from './links'
-import A from './anchor'
+import Links from './links.jsx'
+import A from './anchor.jsx'
 import {
-  IoIosMail as Email
-} from 'react-icons/io'
-import {
-  SiTwitter as Twitter,
-  SiInstagram as Instagram,
-  SiGithub as Github,
-  SiGlitch as Glitch,
-  SiLinkedin as LinkedIn,
-  SiItchdotio as ItchIo,
-} from 'react-icons/si'
+  //SiTwitter as Twitter,
+  //SiInstagram as Instagram,
+  //SiGithub as Github,
+  //SiGlitch as Glitch,
+  //SiLinkedin as LinkedIn,
+  //SiItchdotio as ItchIo,
+} from 'npm:react-simple-icons'
+
+const Github = 'GH'
+const Glitch = 'Glitch'
+const Instagram = 'Insta'
+const ItchIo = 'Itch.io'
+const LinkedIn = 'LinkedIn'
+const Twitter = 'Twitter'
 
 const SocialLinks = props => <Links>
   <A title="Twitter" href="https://twitter.com/elitefreq" ariaHidden><Twitter/></A>
