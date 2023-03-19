@@ -1,6 +1,6 @@
 // todo, move to islands
 
-import React, {useEffect} from 'react';
+import {useEffect} from 'preact/hooks';
 export default function Kofi({name='davidsharp',text='Tip Me',backgroundColor='#fcbf47',textColor='#323842'}){
   const widgetScript = (`console.log('Donate @ ko-fi.com/${name}')
   kofiWidgetOverlay.draw('${name}', {

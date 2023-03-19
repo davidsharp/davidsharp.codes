@@ -12,9 +12,9 @@ function SEO({ description, lang = 'en', meta, title }) {
 
   const site = {
     siteMetadata: {
-      description: '',
-      author: 'David Sharp',
-      title: 'David Sharp Codes'
+      title: `David Sharp Codes`,
+      description: `Your source for David Sharp-related facts and news`,
+      author: `David Sharp`,
     }
   }
 
