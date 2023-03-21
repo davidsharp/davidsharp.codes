@@ -1,6 +1,6 @@
 //import "./icon.css"
 
-import { toChildArray } from 'preact' // not working?
+import { toChildArray } from 'preact'
 
 const Links = props => (<div className="links" style={{textAlign:'center'}}>
   {props.components ? props.components.map((Link,i)=><span>
