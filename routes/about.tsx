@@ -9,7 +9,7 @@ import Kofi from '../islands/kofi-widget.jsx'
 
 import data from '../content/about-site.js'
 
-import { differenceInMonths } from 'npm:date-fns'
+import { differenceInMonths } from 'https://esm.sh/date-fns@2.29.3'
 
 let diff
 

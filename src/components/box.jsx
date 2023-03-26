@@ -1,4 +1,4 @@
-import kebabCase from 'npm:lodash.kebabcase'
+import kebabCase from 'https://esm.sh/lodash.kebabcase@4.1.1'
 
 /*
   header in the box, or above the box?

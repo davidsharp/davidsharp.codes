@@ -2,10 +2,9 @@ import Box from './box.jsx'
 import Links from './links.jsx'
 import SocialLinks from './social-links.jsx'
 
-/*import {
+import {
   AiFillHome as Home
-} from 'npm:react-icons/ai'*/
-const Home = () => <span>{'Home'}</span>
+} from 'https://esm.sh/react-icons/ai?alias=react:preact/compat&deps=react'
 
 // seems to break rendering
 const A = ({children,...props}) => <a className={'navlink'} {...props}>
