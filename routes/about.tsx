@@ -21,7 +21,15 @@ const AboutPage = () => (
     <Box header="About this site">
       <p>{`This site was built using ${data['built using']} and is running on ${data['running on']}`}</p>
       <p>{`The typeface is ${data.typeface}`}</p>
-      <p>{`The palette uses `}<Colour hex={data.background.toUpperCase()}/>{` for the background, and `}<Colour hex={'ff6347'}/>{` and `}<Colour hex={'fedf00'}/>{` for titles, underlines, etc`}</p>
+      <p>
+        {`The palette uses `}
+        <Colour hex={data.background.toUpperCase()}/>
+        {` for the background, and `}
+        <Colour hex={'ff6347'}/>
+        {` and `}
+        <Colour hex={'fedf00'}/>
+        {` for titles, underlines, etc`}
+      </p>
     </Box>
     <Box header="Experience">
       <p>{/*<strong>2014</strong> - */}{`Received a 2:1 BSc(Hons) Software Engineering from University of Brighton in 2014; mostly Java-focussed, but completed modules that touched on databases, embedded systems, computer graphics and such`}</p>
