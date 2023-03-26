@@ -2,13 +2,6 @@ import Box from './box.jsx'
 import Links from './links.jsx'
 import SocialLinks from './social-links.jsx'
 
-import { injectGlobal, css as style } from 'https://esm.sh/@emotion/css'
-
-injectGlobal`
-* {
-  background-color: rebeccapurple;
-}`
-
 /*import {
   AiFillHome as Home
 } from 'npm:react-icons/ai'*/
