@@ -9,6 +9,9 @@ const Layout = ({ home, title, children }) => {
       <Head>
         <link rel="stylesheet" href={asset("/base.css")} />
         <link rel="stylesheet" href={asset("/layout.css")} />
+        <link rel="stylesheet" href={asset("/icon.css")} />
+        <link rel="stylesheet" href={asset("/bio.css")} />
+        <link rel="stylesheet" href={asset("/outline.css")} />
       </Head>
       {home?
         <HomeHeader siteTitle={title||'title not set'}/> :
