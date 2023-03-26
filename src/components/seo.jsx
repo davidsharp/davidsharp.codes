@@ -5,11 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-//import Helmet from "react-helmet"
+import { Head } from "$fresh/runtime.ts";
 
 function SEO({ description, lang = 'en', meta, title }) {
-  return null
 
+  // TODO - get from gatsyby-config.js
   const site = {
     siteMetadata: {
       title: `David Sharp Codes`,
@@ -17,6 +17,10 @@ function SEO({ description, lang = 'en', meta, title }) {
       author: `David Sharp`,
     }
   }
+
+  return <Head>
+    <title>{site.siteMetadata.title}</title>
+  </Head>
 
   const metaDescription = description || site.siteMetadata.description
 
