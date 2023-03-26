@@ -12,6 +12,7 @@ const Layout = ({ home, title, children }) => {
         <link rel="stylesheet" href={asset("/icon.css")} />
         <link rel="stylesheet" href={asset("/bio.css")} />
         <link rel="stylesheet" href={asset("/outline.css")} />
+        <link rel="icon" href={asset("/logo.svg")} type="image/svg+xml"/>
       </Head>
       {home?
         <HomeHeader siteTitle={title||'title not set'}/> :
