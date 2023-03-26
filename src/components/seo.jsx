@@ -19,7 +19,7 @@ function SEO({ description, lang = 'en', meta, title }) {
   }
 
   return <Head>
-    <title>{site.siteMetadata.title}</title>
+    <title>{`${title} | ${site.siteMetadata.title}`}</title>
   </Head>
 
   const metaDescription = description || site.siteMetadata.description
