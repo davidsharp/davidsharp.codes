@@ -7,8 +7,8 @@ const Layout = ({ home, title, children }) => {
   return (
     <>
       <Head>
-        <link rel="stylesheet" href={asset("/base.css")} />
         <link rel="stylesheet" href={asset("/layout.css")} />
+        <link rel="stylesheet" href={asset("/base.css")} />
         <link rel="stylesheet" href={asset("/icon.css")} />
         <link rel="stylesheet" href={asset("/bio.css")} />
         <link rel="stylesheet" href={asset("/outline.css")} />
