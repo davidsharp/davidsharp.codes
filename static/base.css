@@ -31,16 +31,17 @@ a.anchor:hover {
   text-decoration-color: var(--yellow);
 }
 
+a.anchor, a.navlink {
+  color: black;
+}
+
+a.navlink{
+  text-decoration: none;
+}
+a.navlink:hover,a.navlink[aria-current="page"]{
+  border-bottom:solid;
+}
+
 /*p,h2,h3,strong,em {
   font-family: 'Balsamiq Sans';
 }*/
-
-/*
-@font-face {
-  /* somepx's lockjaw v1 * /
-  font-family: Lockjaw;
-  src: url('./fonts/Lockjaw.ttf');
-}
-
-.lockjaw {font-family: Lockjaw}
-*/

@@ -15,13 +15,7 @@ injectGlobal`
 const Home = () => <span>{'Home'}</span>
 
 // seems to break rendering
-const A = ({children,...props}) => <a className={
-  style`
-  background-color:black;
-  &:[aria-current="page"]{
-    border-bottom:solid
-  }`
-  } {...props}>
+const A = ({children,...props}) => <a className={'navlink'} {...props}>
   {children}
 </a>
 
