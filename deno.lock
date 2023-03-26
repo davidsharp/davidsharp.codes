@@ -231,9 +231,13 @@
     "https://esm.sh/preact@10.11.0": "e888b244446037c56f1881173fb51d1f5fa7aae5599e6c5154619346a6a5094e",
     "https://esm.sh/preact@10.11.0/hooks": "2b8ec155eb8b87501663f074acff1d55a9114fa7d88f0b39da06c940af1ff736",
     "https://esm.sh/preact@10.11.0/jsx-runtime": "5c123264f19799ab243211132dded45f6d42d594b5c78dd585f947d07bf20eae",
+    "https://esm.sh/react-icons@4.8.0/si?alias=react:preact/compat&deps=react": "e3f840ea8b669848e3471854da1d78a9616538aabb27e78456251c462d7e67eb",
     "https://esm.sh/stable/preact@10.11.0/deno/hooks.js": "32a891b0e7abdfbf30dc7c274dbcbd46f2ea04d6637174451c50c41c12429805",
     "https://esm.sh/stable/preact@10.11.0/deno/jsx-runtime.js": "0310ceb4c83643ee994baa3104675f08834300731a838ddecf5078853492e8d3",
     "https://esm.sh/stable/preact@10.11.0/deno/preact.js": "08219fcb5b92ccdc709233a070ab22478c91521866c819aea679144847e4e87a",
+    "https://esm.sh/stable/preact@10.13.1/deno/compat.js": "9cff30b20008aa3b29ef09528245b48e86375ae4f7e91f71842f15141ded8bab",
+    "https://esm.sh/stable/preact@10.13.1/deno/hooks.js": "f25445c4f9fa6742119c41db4a85a2f75ee6ea941c506ae8ad3b1568c7692c61",
+    "https://esm.sh/stable/preact@10.13.1/deno/preact.mjs": "9b73545225d0ed274c89f39aee524a2857c81a73060e80c2c4bdc2a6de7bec26",
     "https://esm.sh/stable/react@18.2.0/deno/react.js": "99f4a29109464569449be1002a828827c6dc9d7a386d28da012c29ba4cc88abd",
     "https://esm.sh/v111/@emotion/cache@11.10.5/deno/cache.js": "4f2a27c1d34a1661ea4a910618cbe7323ec8b9faeca3a1a2c07c5b2944b54435",
     "https://esm.sh/v111/@emotion/cache@11.10.5/types/index.d.ts": "7d063efd6082f3a9845b3061ba9535dd174b59270b7cfec7782698bd393180fa",
@@ -271,13 +275,21 @@
     "https://esm.sh/v111/shallowequal@1.1.0/deno/shallowequal.js": "c96420b37d6977a476f8a8d25f87ed2b2ed7036ae7d5c6254e915374a1e4e5d4",
     "https://esm.sh/v111/styled-components@5.3.9/deno/styled-components.js": "d329be284b0555219bb9528ab91da8196a8ca28600bb1ccd2626ac33f9b8a185",
     "https://esm.sh/v111/styled-components@5.3.9?target=deno": "d8d2b5f59e17c0c99cd20f7d27c590b5aa29fe5b823e6f6df5a84cedff07927a",
-    "https://esm.sh/v111/stylis@4.1.3/deno/stylis.js": "38787603aa05f72493e433b65cdc8a65f37b0a90158127153867e97c5b7b1662"
+    "https://esm.sh/v111/stylis@4.1.3/deno/stylis.js": "38787603aa05f72493e433b65cdc8a65f37b0a90158127153867e97c5b7b1662",
+    "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/deno/lib.js": "c7315647a4fd5c7bc2ba38fc98664bbe32b2484ad584dab34d993aa514884965",
+    "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/deno/lib/esm/iconBase.js": "27c3762294017ad6187c9996665b1bbe1ffd4d3d312b123d6a77fc7ca078a453",
+    "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/deno/lib/esm/iconContext.js": "378328c7565a5a298872e7a635146063ed5adae1fa95517a2ba923e0f2701f90",
+    "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/deno/lib/esm/iconsManifest.js": "9cedc936156de5a17d158d5f97b595734429a4049496af4dc9b24f6c8a186458",
+    "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/deno/si.js": "bc2ea30345f3e81a9efb95f87cce6a9e9582c95ed79be969d081b06c5c9cd8e3",
+    "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/lib": "f1f9f5e371d29f21c44fc948a6d56f5c080dae3351188a43ac390357058be819",
+    "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/si/index.d.ts": "ea0bafe19579fe866b037f9f5498fc56ebd6a4fcbe6622ad06e9d397d3e8d6bb"
   },
   "npm": {
     "specifiers": {
       "date-fns": "date-fns@2.29.3",
       "lodash.kebabcase": "lodash.kebabcase@4.1.1",
       "lodash.startcase": "lodash.startcase@4.4.0",
+      "react-icons": "react-icons@4.8.0_react@18.2.0",
       "react-simple-icons": "react-simple-icons@1.0.0-beta.5",
       "styled-components@5.3.0": "styled-components@5.3.0_react@18.2.0_react-dom@18.2.0__react@18.2.0_react-is@18.2.0"
     },
@@ -559,6 +571,12 @@
           "loose-envify": "loose-envify@1.4.0",
           "react": "react@18.2.0",
           "scheduler": "scheduler@0.23.0"
+        }
+      },
+      "react-icons@4.8.0_react@18.2.0": {
+        "integrity": "sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg==",
+        "dependencies": {
+          "react": "react@18.2.0"
         }
       },
       "react-is@16.13.1": {
