@@ -1,11 +1,9 @@
 import {
-  SiTwitter as Twitter,
-  SiInstagram as Instagram,
-  SiGithub as Github,
-  SiGlitch as Glitch,
-  SiLinkedin as LinkedIn,
-  SiItchdotio as ItchIo,
-} from 'https://esm.sh/react-icons/si?alias=react:preact/compat&deps=react'
+  Twitter,
+  Github,
+  Glitch,
+  ItchIo,
+} from './icons.jsx'
 
 import A from './anchor.jsx'
 

@@ -3,8 +3,8 @@ import Links from './links.jsx'
 import SocialLinks from './social-links.jsx'
 
 import {
-  AiFillHome as Home
-} from 'https://esm.sh/react-icons/ai?alias=react:preact/compat&deps=react'
+  Home
+} from './icons.jsx'
 
 // seems to break rendering
 const A = ({children,...props}) => <a className={'navlink'} {...props}>

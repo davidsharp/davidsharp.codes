@@ -1,13 +1,13 @@
 import Links from './links.jsx'
 import A from './anchor.jsx'
 import {
-  SiTwitter as Twitter,
-  SiInstagram as Instagram,
-  SiGithub as Github,
-  SiGlitch as Glitch,
-  SiLinkedin as LinkedIn,
-  SiItchdotio as ItchIo,
-} from 'https://esm.sh/react-icons/si?alias=react:preact/compat&deps=react'
+  Twitter,
+  Instagram,
+  Github,
+  Glitch,
+  LinkedIn,
+  ItchIo,
+} from './icons.jsx'
 
 const SocialLinks = props => <Links>
   <A title="Twitter" href="https://twitter.com/elitefreq" ariaHidden><Twitter/></A>
