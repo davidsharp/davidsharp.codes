@@ -3,6 +3,7 @@ import SEO from "../src/components/seo.jsx"
 
 import Box from '../src/components/box.jsx'
 import A from '../src/components/anchor.jsx'
+import Emoji from '../src/components/emoji.jsx'
 import {GH, Tw, Gl, Itch} from '../src/components/social-link.jsx'
 
 //import Snake from '../src/components/snake.jsx'
@@ -21,7 +22,7 @@ const ProjectsPage = () => (
         <li><Tw href="https://twitter.com/yearinfractions">{`Year in Fractions`}</Tw>{`, a Twitter bot inspired by `}<Tw href="https://twitter.com/year_progress">{`@year_progress`}</Tw>{`, powered by Express, tweets daily how far through the year we are as a (usually approximate) fraction [semi-retired, uses an old version of the Twitter API and only occasionally springs into life]`}</li>
         <li><GH href="https://github.com/davidsharp/davidsharp.codes">{`This very site`}</GH>{`, a Fresh site running on Deno Deploy, ported from Gatsby`}</li>
         <li><GH href="https://github.com/davidsharp/wizzbo">{`Wizzbo`}</GH>{`, a Discord bot that acts as a playground for me to try out ideas, but with the functionality to deploy subsets of commands as their own sub-bots`}</li>
-        <li><GH href="https://github.com/davidsharp/consnake">{`Consnake`}</GH>{`, Snake, but playable in the devtools (opening devtools here will start the game 👀)`}</li>
+        <li><GH href="https://github.com/davidsharp/consnake">{`Consnake`}</GH>{`, Snake, but playable in the devtools (opening devtools here will start the game `}<Emoji emoji="👀"/>{`)`}</li>
         <li><Gl href="https://glitch.com/~christmas-eve-eve">{`Christmas Eve Eve`}</Gl>{`, a very dumb single-page thing based on an old XKCD`}</li>
         <li><A href="https://puppetdf.glitch.me">{`PuppetDF`}</A>{`, what started as a hacky proof-of-concept that turned out to be surprisingly useful. An app that takes a URL and uses Puppeteer (a headless Chromium browser) to output a PDF`}</li>
         <li><A href="https://slice-or-substr.glitch.me">{`slice-or-substr`}</A>{`, a kind of broken toy that demonstrates how slice, substring and substr all work in JavaScript, because I can never remember`}</li>
