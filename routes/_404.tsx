@@ -1,8 +1,7 @@
 import Layout from "../src/components/layout.jsx"
 import SEO from "../src/components/seo.jsx"
 import Box from '../src/components/box.jsx'
-//import Snake from '../src/components/snake'
-const Snake = null
+import Snake from '../islands/snake'
 
 import { UnknownPageProps } from "$fresh/server.ts";
 
