@@ -6,9 +6,7 @@ import A from '../src/components/anchor.jsx'
 import Emoji from '../src/components/emoji.jsx'
 import {GH, Tw, Gl, Itch} from '../src/components/social-link.jsx'
 
-//import Snake from '../src/components/snake.jsx'
-
-const Snake = null
+import Snake from '../islands/snake.jsx'
 
 const ProjectsPage = ({route}) => (
   <Layout route={route}>

@@ -1,5 +1,3 @@
-// move to islands?
-
 const Snake = () => <script type="module">
         {`
         import Game from 'https://cdn.jsdelivr.net/gh/davidsharp/consnake/snake.js'
