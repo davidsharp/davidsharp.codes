@@ -7,6 +7,7 @@ const Layout = ({ home, title, children }) => {
   return (
     <>
       <Head>
+        <meta name="theme-color" content="lightpink"/>
         <link rel="stylesheet" href={asset("/layout.css")} />
         <link rel="stylesheet" href={asset("/base.css")} />
         <link rel="stylesheet" href={asset("/icon.css")} />
