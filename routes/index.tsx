@@ -3,10 +3,10 @@ import SEO from "../src/components/seo.jsx"
 import NavRow from '../src/components/nav-row.jsx'
 import Bio from "../src/components/bio.jsx"
 
-const IndexPage = () => (
-  <Layout home>
+const IndexPage = ({route}) => (
+  <Layout home route={route}>
     <SEO title="Home" />
-    <NavRow />
+    <NavRow route={route}/>
     <Bio />
   </Layout>
 )

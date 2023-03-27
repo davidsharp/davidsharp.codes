@@ -6,20 +6,19 @@ import {
   Home
 } from './icons.jsx'
 
-// seems to break rendering
-const A = ({children,...props}) => <a className={'navlink'} {...props}>
+const A = ({route,children,...props}) => <a className={'navlink'} aria-current={ route == props.href && "page"}  {...props}>
   {children}
 </a>
 
-const NavRow = props => <Box className="navbar" boxStyle={{width:'100%'}} style={{display:'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
+const NavRow = ({route}) => <Box className="navbar" boxStyle={{width:'100%'}} style={{display:'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
   <Links>
-    <A href="/" aria-label="home" title="home">
+    <A href="/"  route={route} aria-label="home" title="home">
       <span aria-hidden="true">
         <Home/>
       </span>
     </A>
-    <A href="/about/">About</A>
-    <A href="/projects/">Projects</A>
+    <A href="/about" route={route}>About</A>
+    <A href="/projects" route={route}>Projects</A>
   </Links>
   <SocialLinks/>
 </Box>

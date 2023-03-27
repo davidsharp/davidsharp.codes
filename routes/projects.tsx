@@ -10,8 +10,8 @@ import {GH, Tw, Gl, Itch} from '../src/components/social-link.jsx'
 
 const Snake = null
 
-const ProjectsPage = () => (
-  <Layout>
+const ProjectsPage = ({route}) => (
+  <Layout route={route}>
     <SEO title="Projects" />
     {/* todo - don't just dump Snake here*/}
     <Snake/>

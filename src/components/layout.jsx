@@ -3,7 +3,8 @@ import { Head, asset } from "$fresh/runtime.ts";
 import HomeHeader from "./header.jsx"
 import Header from './other-header.jsx'
 
-const Layout = ({ home, title, children }) => {
+// to-do, make route a context?
+const Layout = ({ home, title, route, children }) => {
   return (
     <>
       <Head>
@@ -16,8 +17,8 @@ const Layout = ({ home, title, children }) => {
         <link rel="icon" href={asset("/logo.svg")} type="image/svg+xml"/>
       </Head>
       {home?
-        <HomeHeader siteTitle={title||'title not set'}/> :
-        <Header siteTitle={title||'title not set'} />
+        <HomeHeader siteTitle={title||'title not set'} route={route}/> :
+        <Header siteTitle={title||'title not set'} route={route}/>
       }
       <div
         style={{

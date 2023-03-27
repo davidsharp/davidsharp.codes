@@ -13,8 +13,8 @@ import { differenceInMonths } from 'https://esm.sh/date-fns@2.29.3'
 
 let diff
 
-const AboutPage = () => (
-  <Layout>
+const AboutPage = ({route}) => (
+  <Layout route={route}>
     <SEO title="About" />
     <Kofi/>
     <Bio header/>

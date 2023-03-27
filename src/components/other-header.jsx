@@ -2,7 +2,7 @@ import Properties from '../properties.js';
 //import './outline.css'
 import NavRow from './nav-row.jsx'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ route }) => (
   <header
     style={{
       marginBottom: `1.45rem`,
@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
           {'D'}
         </a>
       </h1>
-      <NavRow/>
+      <NavRow route={route}/>
     </span>
   </header>
 )
