@@ -1,7 +1,7 @@
 import Layout from "../src/components/layout.jsx"
 import SEO from "../src/components/seo.jsx"
 import Box from '../src/components/box.jsx'
-import Snake from '../islands/snake'
+import Snake from '../islands/snake.jsx'
 
 import { UnknownPageProps } from "$fresh/server.ts";
 
