@@ -40,6 +40,15 @@ const ProjectsPage = ({route}) => (
         <li><Itch href="https://davidsharp.itch.io/bunslinger">Bunslinger at High Noon</Itch>, an arcade-y restaurant sim game in the style of a Nokia 3310 for Nokia Jam 5</li>
       </ul>
     </Box>
+    <Box header="Work in progress">
+      <p>I have a few private work-in-progress projects that will hopefully see the light of day:</p>
+      <ul>
+        <li>Mycross - a web utility to create custom puzzles for Mario's Picross for the original Gameboy</li>
+        <li>An untitled JavaScript game, a combination of Snake and a typing game, built from the ground up without any engines or libraries. I started this a while ago, before getting into Love2D and Godot, but plan on finishing it someday</li>
+        <li>A Playdate port of Build-n-Blocks - utilising a wrapper around the portions of the Love2D API that I'm using</li>
+        <li>...and more!</li>
+      </ul>
+    </Box>
     <Box header="Other coding miscellany">
       <p>I've participated in <A href="https://adventofcode.com">Advent of Code</A> for a number of years (but have yet to <em>fully</em> complete a year), usually in terse JavaScript, and keep my code here: <GH href="https://github.com/davidsharp/advent-of-code">davidsharp/advent-of-code</GH></p>
       <hr/>
