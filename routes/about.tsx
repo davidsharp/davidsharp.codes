@@ -20,15 +20,15 @@ const AboutPage = ({route}) => (
     <Bio header/>
     <Box header="About this site">
       <p>{`This site was built using ${data['built using']} and is running on ${data['running on']}`}</p>
-      <p>{`The typeface is ${data.typeface}`}</p>
+      <p>{`The typefaces used are ${data.typeface}`}</p>
       <p>
-        {`The palette uses `}
+        {`The palette is `}
         <Colour hex={data.background.toUpperCase()}/>
-        {` for the background, and `}
+        {`, `}
         <Colour hex={'ff6347'}/>
         {` and `}
         <Colour hex={'fedf00'}/>
-        {` for titles, underlines, etc`}
+        {`.`}
       </p>
     </Box>
     <Box header="Experience">
