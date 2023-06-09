@@ -1,29 +1,38 @@
-const Snake = () => <script type="module">
-        {`
-        import Game from 'https://cdn.jsdelivr.net/gh/davidsharp/consnake/snake.js'
-        import devtools from 'https://cdn.jsdelivr.net/npm/devtools-detect@4.0/index.js'
+import { useEffect, useState, useRef } from "preact/hooks"
 
-        let inited = false
+import Game from 'https://cdn.jsdelivr.net/gh/davidsharp/consnake/snake.js'
+import devtools from 'https://esm.sh/v113/devtools-detect@4.0/index.js'
 
-        const start = () => {
-          inited = true
-          const game = new Game()
-          game.init()
-          document.addEventListener('keydown', e => game.listen(e.key))
-          setInterval(() => {
-            game.tick()
-          }, 500);
-        }
+export default function Snake(){
+  const [inited, setInited] = useState(false)
 
-        const init = () => {
-          if(devtools.isOpen) start();
-          else window.addEventListener('devtoolschange', event => {
-            if(!inited && event.detail.isOpen) start()
-          })
-        }
-        
-        init()
-        `}
-      </script>
+  const gameRef = useRef(new Game())
 
-export default Snake
+  useEffect(()=>{
+    if(inited){
+      const game = gameRef.current
+      game.init()
+      const keydown = e => game.listen(e.key)
+      document.addEventListener('keydown', keydown)
+      const interval = setInterval(() => {
+        game.tick()
+      }, 500);
+      return () => {
+        clearInterval(interval)
+        document.removeEventListener('keydown', keydown)
+      }
+    }
+  },[inited])
+
+  useEffect(()=>{
+    const start = event => {if(!inited && event.detail.isOpen) setInited(true)}
+
+    if(devtools.isOpen) setInited(true)
+    else {
+      globalThis.addEventListener('devtoolschange', start)
+      return () => globalThis.removeEventListener('devtoolschange', start)
+    }
+  },[null])
+
+  return (<span>snake</span>)
+}

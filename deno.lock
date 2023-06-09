@@ -1,6 +1,7 @@
 {
   "version": "2",
   "remote": {
+    "https://cdn.jsdelivr.net/gh/davidsharp/consnake/snake.js": "f816720222e5e1e36ebcdcd36a8bb0e8dd79aa3683e6848b415fcbd7e9041cad",
     "https://deno.land/std@0.140.0/_util/assert.ts": "e94f2eb37cebd7f199952e242c77654e43333c1ac4c5c700e929ea3aa5489f74",
     "https://deno.land/std@0.140.0/_util/os.ts": "3b4c6e27febd119d36a416d7a97bd3b0251b77c88942c8f16ee5953ea13e2e49",
     "https://deno.land/std@0.140.0/fs/_util.ts": "0fb24eb4bfebc2c194fb1afdb42b9c3dda12e368f43e8f2321f84fc77d42cb0f",
@@ -137,6 +138,9 @@
     "https://esm.sh/v113/@types/lodash@4.14.191/index~.d.ts": "f2eff8704452659641164876c1ef0df4174659ce7311b0665798ea3f556fa9ad",
     "https://esm.sh/v113/date-fns@2.29.3/deno/date-fns.mjs": "2f3f18e2042e44229d6496ed86ca40109361508b671d74111780252afbe85c9d",
     "https://esm.sh/v113/date-fns@2.29.3/typings.d.ts": "00a2a0751ca2e2443834f51d43bd52b24c3ab27799a0d4456c1dc950c6cdfff3",
+    "https://esm.sh/v113/devtools-detect@4.0.1/deno/index.js": "b133c2f725c9cef21988b4a7726cc0b6d2f490949270f970e62eea7c44fbee35",
+    "https://esm.sh/v113/devtools-detect@4.0.1/index.d.ts": "a48cc633ccf91aba82f762e4999454ab763b168770ae027a485d732e45ba0253",
+    "https://esm.sh/v113/devtools-detect@4.0.1/index.js": "936a5662a380218ee636ad5ade72e1f35e60a5666584054b10fcc9c4c486efea",
     "https://esm.sh/v113/lodash.kebabcase@4.1.1/deno/lodash.kebabcase.mjs": "1b94fc92a89407cbcee6073e9ea87a5639623bba7033e94b886c26529bb8a216",
     "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/ai/index.d.ts": "e2ea99d230baa275dd764546b1f601813c1ae2fa66b9bff9a281e053498d77d2",
     "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/deno/ai.js": "c44571edde157bc806722c93d426c17efad69228e08f3742a80d27184ad6608f",

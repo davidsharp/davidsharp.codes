@@ -11,7 +11,6 @@ import Snake from '../islands/snake.jsx'
 const ProjectsPage = ({route}) => (
   <Layout route={route}>
     <SEO title="Projects" />
-    {/* todo - don't just dump Snake here*/}
     <Snake/>
     {/* todo - section picker*/}
     <Box header="Personal Projects">
