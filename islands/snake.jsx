@@ -34,5 +34,5 @@ export default function Snake(){
     }
   },[null])
 
-  return (<span>snake</span>)
+  return <span></span>
 }
