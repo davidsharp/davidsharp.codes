@@ -10,11 +10,25 @@
   --link-hover: tomato;
   --link-underline: #fedf00;
   --header: tomato;
+
+  --text-color: hsla(0, 0%, 0%, 0.8);
+
+  --box-background: white;
+  --box-border: #333;
+  --box-shadow: #333;
+  --box-text: var(--text-color);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: tomato;
+    --background: #121300;
+
+    --text-color: #ddd;
+    --link-text: var(--text-color);
+
+    --box-background: #333;
+    --box-border: #222;
+    --box-shadow: #222;
   }
 }
 

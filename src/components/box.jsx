@@ -9,9 +9,10 @@ const Box = ({header,children,boxStyle={},style={},className='',...props}) => <>
   id={header?kebabCase(header):undefined}
   className={`box ${className}`}
   style={{
-  backgroundColor:'white',
-  boxShadow: '5px 5px #333',
-  border:'5px solid #333',
+  backgroundColor:'var(--box-background)',
+  boxShadow: '5px 5px var(--box-shadow)',
+  border:'5px solid',
+  borderColor: 'var(--box-border)',
   borderRadius: '1em',
   padding: '.8em',
   marginBottom: '8px',
@@ -28,7 +29,8 @@ const Box = ({header,children,boxStyle={},style={},className='',...props}) => <>
 
 const BoxHeader = ({children}) => <h2 style={{
   marginBottom: '.2em',
-  borderBottom: 'solid #333',
+  borderBottom: 'solid',
+  borderColor: 'var(--box-border)',
   paddingBottom: '.3em'
 }}>{children}</h2>
 
