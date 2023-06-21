@@ -2,6 +2,7 @@
   "version": "2",
   "remote": {
     "https://cdn.jsdelivr.net/gh/davidsharp/consnake/snake.js": "f816720222e5e1e36ebcdcd36a8bb0e8dd79aa3683e6848b415fcbd7e9041cad",
+    "https://cdn.jsdelivr.net/gh/davidsharp/consnake@1.0.1-emoji/snake.js": "94d12023f967a19452caad56b5e6fd82380aaaaba3cdff36e26af88e9536c11e",
     "https://deno.land/std@0.140.0/_util/assert.ts": "e94f2eb37cebd7f199952e242c77654e43333c1ac4c5c700e929ea3aa5489f74",
     "https://deno.land/std@0.140.0/_util/os.ts": "3b4c6e27febd119d36a416d7a97bd3b0251b77c88942c8f16ee5953ea13e2e49",
     "https://deno.land/std@0.140.0/fs/_util.ts": "0fb24eb4bfebc2c194fb1afdb42b9c3dda12e368f43e8f2321f84fc77d42cb0f",
@@ -103,6 +104,7 @@
     "https://deno.land/x/ts_morph@16.0.0/ts_morph.js": "9fc0f3d6a3997c2df023fabc4e529d2117d214ffd4fd04247ca2f56c4e9cd470",
     "https://esm.sh/*preact-render-to-string@5.2.4": "5c965103e5039039a89c5de1f551a690aecd3918afe53b5d967ce5d96d939584",
     "https://esm.sh/date-fns@2.29.3": "970f9f3c93a20fddec93c15e581aeddbffad48540975f65fd79fbe3a005d8d50",
+    "https://esm.sh/gh/davidsharp/consnake@1.0.1-emoji/snake.js": "edb5deee0c6efd74042ee8cdc98b42da991fb24dd8bced21c0ad4177c115d192",
     "https://esm.sh/lodash.kebabcase@4.1.1": "04e7b4aecf5850e37d83e6ce4e085b792283de8deeefbc3669e19c54e57739d2",
     "https://esm.sh/preact@10.11.0": "e888b244446037c56f1881173fb51d1f5fa7aae5599e6c5154619346a6a5094e",
     "https://esm.sh/preact@10.11.0/hooks": "2b8ec155eb8b87501663f074acff1d55a9114fa7d88f0b39da06c940af1ff736",
@@ -150,7 +152,8 @@
     "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/deno/lib/esm/iconsManifest.js": "9cedc936156de5a17d158d5f97b595734429a4049496af4dc9b24f6c8a186458",
     "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/deno/si.js": "bc2ea30345f3e81a9efb95f87cce6a9e9582c95ed79be969d081b06c5c9cd8e3",
     "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/lib": "f1f9f5e371d29f21c44fc948a6d56f5c080dae3351188a43ac390357058be819",
-    "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/si/index.d.ts": "ea0bafe19579fe866b037f9f5498fc56ebd6a4fcbe6622ad06e9d397d3e8d6bb"
+    "https://esm.sh/v113/react-icons@4.8.0/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0CmQvcmVhY3RAMTguMi4w/si/index.d.ts": "ea0bafe19579fe866b037f9f5498fc56ebd6a4fcbe6622ad06e9d397d3e8d6bb",
+    "https://esm.sh/v126/gh/davidsharp/consnake@1.0.1-emoji/deno/snake.js": "f3b063cacf9c5caa76cb99e2e2cf1aa9a00f98b5d03fc589c3b5cd5819631eb7"
   },
   "npm": {
     "specifiers": {
