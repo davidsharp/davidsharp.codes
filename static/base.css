@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Fredoka+One&display=swap');
+
+:root {
+  --blue: #0058ff;
+  --grey: #557;
+  --yellow: #fedf00;
+
+  --background: lightpink;
+  --link-text: black;
+  --link-hover: tomato;
+  --link-underline: #fedf00;
+  --header: tomato;
+
+  --text-color: hsla(0, 0%, 0%, 0.8);
+
+  --box-background: white;
+  --box-border: #333;
+  --box-shadow: #333;
+  --box-text: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121300;
+
+    --text-color: #ddd;
+    --link-text: var(--text-color);
+
+    --box-background: #333;
+    --box-border: #222;
+    --box-shadow: #222;
+  }
+}
+
+::view-transition-image-pair(root) {
+  isolation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+  display: block;
+}
+
+p,h3,strong,em,ul,.navbar * {
+  font-family: 'Balsamiq Sans', Helvetica, sans-serif;
+}
+
+h2 {
+  color: var(--header);
+  font-family: 'Fredoka One', 'Balsamiq Sans', Helvetica, sans-serif;
+}
+
+footer {
+  font-family: 'Fredoka One', 'Balsamiq Sans', Helvetica, sans-serif;
+}
+
+a.anchor {
+  /*font-style: italic;*/
+  /*color: var(--grey);*/
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+  text-decoration-color: var(--link-underline);
+}
+a.anchor:hover {
+  color: var(--link-hover);
+}
+
+a.anchor, a.navlink {
+  color: var(--link-text);
+}
+
+a.navlink{
+  text-decoration: none;
+}
+a.navlink:hover,a.navlink[aria-current="page"]{
+  border-bottom:solid;
+}
+
+/*p,h2,h3,strong,em {
+  font-family: 'Balsamiq Sans';
+}*/

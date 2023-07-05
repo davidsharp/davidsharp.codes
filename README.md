@@ -3,4 +3,4 @@
 
 This tome contains the current living site of David Sharp
 
-Built upon the teachings of Gatsby and powered by the almighty Netlify
+Built upon the teachings of Fresh and powered by the almighty Deno
