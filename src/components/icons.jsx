@@ -1,6 +1,6 @@
 export {
   AiFillHome as Home
-} from 'https://esm.sh/react-icons/ai?alias=react:preact/compat&deps=react'
+} from 'react-icons/ai';
 
 export {
   SiTwitter as Twitter,
@@ -9,4 +9,4 @@ export {
   SiGlitch as Glitch,
   SiLinkedin as LinkedIn,
   SiItchdotio as ItchIo,
-} from 'https://esm.sh/react-icons/si?alias=react:preact/compat&deps=react'
+} from 'react-icons/si'
