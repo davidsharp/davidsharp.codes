@@ -419,6 +419,7 @@
     "https://esm.sh/react-icons@4.10.1/si?alias=react:preact/compat": "1c51706f8de2ae3626b02309129e2931afe401c73d8d2d4549ed71b8a7b93c59",
     "https://esm.sh/react-icons@4.8.0/ai?alias=react:preact/compat&deps=react": "d05f4868204ad181b3588d2dc4d397c62ecc21403c1c72e13da57b70759071da",
     "https://esm.sh/react-icons@4.8.0/si?alias=react:preact/compat&deps=react": "e3f840ea8b669848e3471854da1d78a9616538aabb27e78456251c462d7e67eb",
+    "https://esm.sh/simple-icons@9.7.0": "b5706407161a7d7c8a84a5d880757892ba8b1f4d31590ed3049abea42e51f0c2",
     "https://esm.sh/stable/preact@10.11.0/deno/hooks.js": "32a891b0e7abdfbf30dc7c274dbcbd46f2ea04d6637174451c50c41c12429805",
     "https://esm.sh/stable/preact@10.11.0/deno/jsx-runtime.js": "0310ceb4c83643ee994baa3104675f08834300731a838ddecf5078853492e8d3",
     "https://esm.sh/stable/preact@10.11.0/deno/preact.js": "08219fcb5b92ccdc709233a070ab22478c91521866c819aea679144847e4e87a",
@@ -473,7 +474,8 @@
     "https://esm.sh/v127/preact-render-to-string@6.1.0/X-ZS8q/denonext/preact-render-to-string.mjs": "8ce71d44f2a197f8fafa24c8d1ac19e0d7fac5a171efae6154f8d754e1ae0ae4",
     "https://esm.sh/v130/preact-render-to-string@6.2.0/X-ZS8q/denonext/preact-render-to-string.mjs": "835eb2413a25f1142bcb87ea4df7d85bb3dbf48569ec3aa693b80a618cec3706",
     "https://esm.sh/v130/react-icons@4.10.1/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0/denonext/ai.js": "adcb5a195e5e74cd1280ac62bc4e7e24f0a14f97e89bfd6af423083eff217d60",
-    "https://esm.sh/v130/react-icons@4.10.1/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0/denonext/si.js": "2e29f56f026da8814c3612d7ed21146d75f22aacef88761bfdbe1741444c3d64"
+    "https://esm.sh/v130/react-icons@4.10.1/X-YS9yZWFjdDpwcmVhY3QvY29tcGF0/denonext/si.js": "2e29f56f026da8814c3612d7ed21146d75f22aacef88761bfdbe1741444c3d64",
+    "https://esm.sh/v130/simple-icons@9.7.0/denonext/simple-icons.mjs": "e50ed8b9477e53fa91067ae852e7b3a85dbbf9640e45f41058250810cfb1b3da"
   },
   "npm": {
     "specifiers": {
