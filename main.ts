@@ -7,10 +7,4 @@
 import { start } from "$fresh/server.ts";
 import manifest from "./fresh.gen.ts";
 
-const renderFn: RenderFunction = (ctx, render) => {
-  ctx.lang = "en"
-  render()
-}
-
-
-await start(manifest, { render: renderFn });
+await start(manifest, {});
