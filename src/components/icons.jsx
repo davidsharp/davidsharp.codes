@@ -21,6 +21,7 @@ const Github = () => <Icon path={siGithub.path}/>
 const Glitch = () => <Icon path={siGlitch.path}/>
 const LinkedIn = () => <Icon path={siLinkedin.path}/>
 const ItchIo = () => <Icon path={siItchdotio.path}/>
+const BlueSky = () => <span style={{lineHeight:'1em',fontSize:'1em'}}>@</span>
 
 export {
   Home,
@@ -31,4 +32,5 @@ export {
   Glitch,
   LinkedIn,
   ItchIo,
+  BlueSky,
 }
