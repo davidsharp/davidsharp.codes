@@ -24,6 +24,7 @@ const ProjectsPage = ({route}) => (
         <li><A href="https://puppetdf.glitch.me">{`PuppetDF`}</A>{`, what started as a hacky proof-of-concept that turned out to be surprisingly useful. An app that takes a URL and uses Puppeteer (a headless Chromium browser) to output a PDF`}</li>
         <li><A href="https://slice-or-substr.glitch.me">{`slice-or-substr`}</A>{`, a kind of broken toy that demonstrates how slice, substring and substr all work in JavaScript, because I can never remember`}</li>
         <li><Gl href="https://glitch.com/~doushi-flash">{`Doushi Flash`}</Gl>{`, a Japanese verb flashcard generator. Generates an image with a random Japanese verb, its translation and a couple of conjugations`}</li>
+        <li><A href="https://myuseragent.glitch.me">{`myuseragent`}</A>{`, a super simple app that simply logs your user agent string (with a JSON option too)`}</li>
       </ul>
     </Box>
     <Box header="Games">
