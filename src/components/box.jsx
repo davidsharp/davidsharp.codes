@@ -35,3 +35,5 @@ const BoxHeader = ({children}) => <h2 style={{
 }}>{children}</h2>
 
 export default Box
+
+export { BoxHeader }

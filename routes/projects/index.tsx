@@ -1,12 +1,12 @@
-import Layout from "../src/components/layout.jsx"
-import SEO from "../src/components/seo.jsx"
+import Layout from "../../src/components/layout.jsx"
+import SEO from "../../src/components/seo.jsx"
 
-import Box from '../src/components/box.jsx'
-import A from '../src/components/anchor.jsx'
-import Emoji from '../src/components/emoji.jsx'
-import {GH, Tw, Gl, Itch} from '../src/components/social-link.jsx'
+import Box from '../../src/components/box.jsx'
+import A from '../../src/components/anchor.jsx'
+import Emoji from '../../src/components/emoji.jsx'
+import {GH, Tw, Gl, Itch} from '../../src/components/social-link.jsx'
 
-import Snake from '../islands/snake.jsx'
+import Snake from '../../islands/snake.jsx'
 
 const ProjectsPage = ({route}) => (
   <Layout route={route}>
