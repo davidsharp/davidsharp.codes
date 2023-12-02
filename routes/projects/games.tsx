@@ -32,6 +32,7 @@ const ProjectsPage = ({route}) => (
         <li><Itch href="https://davidsharp.itch.io/build-jam">Build-n-Blocks</Itch>, a game made as part of a small "Build" themed game jam in a fortnight, also built in <A href="https://love2d.org/">LÖVE</A>. The game is a 1-bit falling block puzzle game, with a Gameboy RPG-esque overworld</li>
         <li><Itch href="https://davidsharp.itch.io/card-sharpshooter">Card Sharpshooter</Itch>, a Playing Card-themed FPS prototype built in Godot. A collaborative effort, "my" game of 3 we worked on together.</li>
 </ul>*/}
+    </Box>
   </Layout>
 )
 
