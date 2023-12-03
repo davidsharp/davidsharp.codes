@@ -2,35 +2,36 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/_404.tsx";
-import * as $1 from "./routes/_app.tsx";
-import * as $2 from "./routes/about.tsx";
-import * as $3 from "./routes/api/joke.ts";
-import * as $4 from "./routes/index.tsx";
-import * as $5 from "./routes/projects/games.tsx";
-import * as $6 from "./routes/projects/index.tsx";
-import * as $7 from "./routes/x[name].tsx";
-import * as $$0 from "./islands/Counter.tsx";
-import * as $$1 from "./islands/kofi-widget.jsx";
-import * as $$2 from "./islands/snake.jsx";
+import * as $_404 from "./routes/_404.tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $about from "./routes/about.tsx";
+import * as $api_joke from "./routes/api/joke.ts";
+import * as $index from "./routes/index.tsx";
+import * as $projects_games from "./routes/projects/games.tsx";
+import * as $projects_index from "./routes/projects/index.tsx";
+import * as $x_name_ from "./routes/x[name].tsx";
+import * as $Counter from "./islands/Counter.tsx";
+import * as $kofi_widget from "./islands/kofi-widget.jsx";
+import * as $snake from "./islands/snake.jsx";
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/_404.tsx": $0,
-    "./routes/_app.tsx": $1,
-    "./routes/about.tsx": $2,
-    "./routes/api/joke.ts": $3,
-    "./routes/index.tsx": $4,
-    "./routes/projects/games.tsx": $5,
-    "./routes/projects/index.tsx": $6,
-    "./routes/x[name].tsx": $7,
+    "./routes/_404.tsx": $_404,
+    "./routes/_app.tsx": $_app,
+    "./routes/about.tsx": $about,
+    "./routes/api/joke.ts": $api_joke,
+    "./routes/index.tsx": $index,
+    "./routes/projects/games.tsx": $projects_games,
+    "./routes/projects/index.tsx": $projects_index,
+    "./routes/x[name].tsx": $x_name_,
   },
   islands: {
-    "./islands/Counter.tsx": $$0,
-    "./islands/kofi-widget.jsx": $$1,
-    "./islands/snake.jsx": $$2,
+    "./islands/Counter.tsx": $Counter,
+    "./islands/kofi-widget.jsx": $kofi_widget,
+    "./islands/snake.jsx": $snake,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;
