@@ -9,6 +9,7 @@ import * as $api_joke from "./routes/api/joke.ts";
 import * as $index from "./routes/index.tsx";
 import * as $projects_games from "./routes/projects/games.tsx";
 import * as $projects_index from "./routes/projects/index.tsx";
+import * as $projects_misc from "./routes/projects/misc.tsx";
 import * as $x_name_ from "./routes/x[name].tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $kofi_widget from "./islands/kofi-widget.jsx";
@@ -24,6 +25,7 @@ const manifest = {
     "./routes/index.tsx": $index,
     "./routes/projects/games.tsx": $projects_games,
     "./routes/projects/index.tsx": $projects_index,
+    "./routes/projects/misc.tsx": $projects_misc,
     "./routes/x[name].tsx": $x_name_,
   },
   islands: {
