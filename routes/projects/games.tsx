@@ -11,6 +11,10 @@ import Snake from '../../islands/snake.jsx'
 const JamDeets = ({name,link,jamName,jamLink,children}) => (
   <>
     <BoxHeader>{`${name} (for ${jamName})`}</BoxHeader>
+    {/**
+      put more details here, jam link, tech, etc
+      December 2024 | Godot | link to jam
+    */}
     {children}
   </>
 )
