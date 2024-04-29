@@ -51,6 +51,11 @@ const ProjectsPage = ({route}) => (
       </ul>
     </Box>
     <Box header="Other coding miscellany">
+      <p>I bought a <A href="https://www.espruino.com/Bangle.js2">Bangle.js 2</A> smartwatch, based on Espruino (embedded JS), in early 2024, and have been working on a few small apps:</p>
+      <ul>
+        <li><GH href="https://github.com/davidsharp/watch">davidsharp/watch</GH>{`, a simple watch face, with a big digital time display, a seconds ticker, kanji day of the week and pedometer and heart rate display`}</li>
+        <li><GH href="https://github.com/davidsharp/bangle-js-snake">davidsharp/bangle-js-snake</GH>{`, a simple proof-of-concept Snake implentation using screen swipes to control direction`}</li>
+      </ul>
       <p>I've participated in <A href="https://adventofcode.com">Advent of Code</A> for a number of years (but have yet to <em>fully</em> complete a year), usually in terse JavaScript, and keep my code here: <GH href="https://github.com/davidsharp/advent-of-code">davidsharp/advent-of-code</GH></p>
       <hr/>
       <p>Here's some <GH href="https://github.com/matryer/xbar">xbar (fka bitbar)</GH> plugins for macOS (all GitHub gists):</p>
