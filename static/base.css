@@ -21,7 +21,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #121300;
+    --background: darkcyan;
 
     --text-color: #ddd;
     --link-text: var(--text-color);
