@@ -22,6 +22,11 @@ const JamDeets = ({name,link,jamName,jamLink,children}) => (
 const ProjectsPage = ({route}) => (
   <Layout route={route}>
     <SEO title="Games" />
+    <Box header="Game Jams | 2024">
+      {/*Split into Itch.io jams and personal jams*/}
+      <BoxHeader>Star Ring</BoxHeader>
+      <p><Itch href="https://davidsharp.itch.io/star-ring">Star Ring</Itch>, a simple 3D "space" game made for Lowrez Jam 2024, an exercise in crunching a game into a canvas of 64 x 64 pixels</p>
+    </Box>
     <Box header="Game Jams | 2023">
       {/*Split into Itch.io jams and personal jams*/}
       <BoxHeader>Pongaconda (for PongJam)</BoxHeader>
@@ -30,6 +35,7 @@ const ProjectsPage = ({route}) => (
       <p><Itch href="https://davidsharp.itch.io/bunslinger">Bunslinger at High Noon</Itch>, an arcade-y restaurant sim game in the style of a Nokia 3310 for Nokia Jam 5</p>
       <BoxHeader>Desert Bus Bowling (for Desert Bus for Hope 2023 Game Jam)</BoxHeader>
       <p><Itch href="https://davidsharp.itch.io/desert-bus-bowling">Desert Bus Bowling</Itch>, a simple 3D bowling game built for <Itch href="https://itch.io/jam/2023">Desert Bus for Hope 2023 Game Jam</Itch></p>
+      {/*TO ADD: Ball Room Trijam game*/}
       {/*<p>I've casually toyed with making small games here and there (which can also be found on <Itch href="https://davidsharp.itch.io">my Itch.io</Itch>), and here's what has stuck:</p>
       <ul>
         <li><Itch href="https://davidsharp.itch.io/puff-puff-pass-british-bulldog">British Bulldog</Itch>, a game made in collaboration with a few friends with minimal communication, built in the Lua-based framework <A href="https://love2d.org/">LÖVE</A>, most of my work was refactoring, completing features and polishing, but I also added a splash screen inspired by old cracktros</li>
