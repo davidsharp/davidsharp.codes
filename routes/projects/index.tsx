@@ -41,7 +41,7 @@ const ProjectsPage = ({route}) => (
         <li><Itch href="https://davidsharp.itch.io/ball-room-trijam-262">Ball Room</Itch>, a simple high score game made for the 3-hour weekly game jam, Trijam</li>
         <li><Itch href="https://davidsharp.itch.io/pongaconda">Pongaconda</Itch>, a rough prototype of a game combining Pong and Snake, built in a few hours for PongJam</li>
       </ul>
-      <p><A href="./games">more...</A></p>
+      <p><A href="/games">more...</A></p>
     </Box>
     <Box header="Work in progress">
       <p>I have a few private work-in-progress projects that will hopefully see the light of day:</p>
