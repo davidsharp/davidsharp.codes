@@ -1,11 +1,15 @@
 import {
-  siTwitter,
   siInstagram,
   siGithub,
   siGlitch,
   siLinkedin,
   siItchdotio,
   siThreads,
+  siBluesky
+} from 'https://esm.sh/simple-icons@13.15.0'
+
+import {
+  siTwitter,
 } from 'https://esm.sh/simple-icons@9.7.0'
 
 const siViewbox = "0 0 24 24"
@@ -21,7 +25,7 @@ const Github = () => <Icon path={siGithub.path}/>
 const Glitch = () => <Icon path={siGlitch.path}/>
 const LinkedIn = () => <Icon path={siLinkedin.path}/>
 const ItchIo = () => <Icon path={siItchdotio.path}/>
-const BlueSky = () => <span style={{lineHeight:'1em',fontSize:'1em'}}>@</span>
+const BlueSky = () => <Icon path={siBluesky.path}/>
 
 export {
   Home,
