@@ -23,12 +23,13 @@ style={{
     style={{
       maxWidth:200,
       maxHeight:200,
-      border:'solid #333',
+      border:'double #333',
       margin: '.8em',
       flex: '1 0 200px',
       height: 200,
       width: 200,
-      backgroundColor: '#fedf00'
+      border: 'double black 10px',
+      borderRadius: '50% 50% 0 0',
     }}
     src="https://s.gravatar.com/avatar/78b4ada96c0948d94c8d6cd573736087?s=200"
     alt="David in Kyoto, December 2016"
