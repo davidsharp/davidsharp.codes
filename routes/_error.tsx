@@ -7,7 +7,7 @@ export default function ErrorPage(props: PageProps) {
 
     // Render a 404 not found page
     if (status === 404) {
-      return <FourOhFour {...props}>;
+      return <FourOhFour {...props}/>;
     }
   }
 

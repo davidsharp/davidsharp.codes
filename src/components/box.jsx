@@ -1,4 +1,4 @@
-import kebabCase from "https://esm.sh/lodash.kebabcase@4.1.1";
+import kebabCase from "lodash.kebabcase";
 
 /*
   header in the box, or above the box?

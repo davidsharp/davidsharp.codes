@@ -33,16 +33,21 @@
     "npm:@opentelemetry/api@^1.9.0": "1.9.1",
     "npm:@preact/signals@^2.5.1": "2.9.0_preact@10.29.1",
     "npm:@preact/signals@^2.7.1": "2.9.0_preact@10.29.1",
-    "npm:@prefresh/vite@^2.4.8": "2.4.12_preact@10.29.1_vite@7.3.2__picomatch@4.0.4",
+    "npm:@prefresh/vite@^2.4.8": "2.4.12_preact@10.29.1_vite@8.0.8__esbuild@0.25.12_esbuild@0.25.12",
+    "npm:date-fns@^2.29.3": "2.30.0",
+    "npm:devtools-detect@^4.0.2": "4.0.2",
     "npm:esbuild-wasm@~0.25.11": "0.25.12",
     "npm:esbuild@0.25.7": "0.25.7",
     "npm:esbuild@~0.25.5": "0.25.12",
+    "npm:lodash.kebabcase@^4.1.1": "4.1.1",
     "npm:preact-render-to-string@^6.6.3": "6.6.7_preact@10.29.1",
     "npm:preact@^10.28.2": "10.29.1",
     "npm:preact@^10.28.3": "10.29.1",
     "npm:rollup@^4.50.0": "4.60.1",
-    "npm:vite@^7.1.4": "7.3.2_picomatch@4.0.4",
-    "npm:vite@^8.0.8": "8.0.8_esbuild@0.25.7"
+    "npm:simple-icons@13.15.0": "13.15.0",
+    "npm:simple-icons@9.7.0": "9.7.0",
+    "npm:vite@^7.1.4": "7.3.2",
+    "npm:vite@^8.0.8": "8.0.8_esbuild@0.25.12"
   },
   "jsr": {
     "@deno/esbuild-plugin@1.2.1": {
@@ -315,6 +320,9 @@
         "@babel/plugin-transform-react-jsx-development",
         "@babel/plugin-transform-react-pure-annotations"
       ]
+    },
+    "@babel/runtime@7.29.2": {
+      "integrity": "sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g=="
     },
     "@babel/template@7.28.6": {
       "integrity": "sha512-YA6Ma2KsCdGb+WC6UpBVFJGXL58MDA6oyONbjyF/+5sBgxY/dwkhLogbMT2GXXyU84/IhRw/2D1Os1B/giz+BQ==",
@@ -818,7 +826,7 @@
     "@prefresh/utils@1.2.1": {
       "integrity": "sha512-vq/sIuN5nYfYzvyayXI4C2QkprfNaHUQ9ZX+3xLD8nL3rWyzpxOm1+K7RtMbhd+66QcaISViK7amjnheQ/4WZw=="
     },
-    "@prefresh/vite@2.4.12_preact@10.29.1_vite@7.3.2__picomatch@4.0.4": {
+    "@prefresh/vite@2.4.12_preact@10.29.1_vite@8.0.8__esbuild@0.25.12_esbuild@0.25.12": {
       "integrity": "sha512-FY1fzXpUjiuosznMV0YM7XAOPZjB5FIdWS0W24+XnlxYkt9hNAwwsiKYn+cuTEoMtD/ZVazS5QVssBr9YhpCQA==",
       "dependencies": [
         "@babel/core",
@@ -827,7 +835,7 @@
         "@prefresh/utils",
         "@rollup/pluginutils",
         "preact",
-        "vite@7.3.2_picomatch@4.0.4"
+        "vite@8.0.8_esbuild@0.25.12"
       ]
     },
     "@rolldown/binding-android-arm64@1.0.0-rc.15": {
@@ -890,7 +898,7 @@
       "os": ["openharmony"],
       "cpu": ["arm64"]
     },
-    "@rolldown/binding-wasm32-wasi@1.0.0-rc.15_@emnapi+core@1.9.2_@emnapi+runtime@1.9.2": {
+    "@rolldown/binding-wasm32-wasi@1.0.0-rc.15": {
       "integrity": "sha512-ApLruZq/ig+nhaE7OJm4lDjayUnOHVUa77zGeqnqZ9pn0ovdVbbNPerVibLXDmWeUZXjIYIT8V3xkT58Rm9u5Q==",
       "dependencies": [
         "@emnapi/core",
@@ -1074,6 +1082,12 @@
     "convert-source-map@2.0.0": {
       "integrity": "sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg=="
     },
+    "date-fns@2.30.0": {
+      "integrity": "sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==",
+      "dependencies": [
+        "@babel/runtime"
+      ]
+    },
     "debug@4.3.7": {
       "integrity": "sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==",
       "dependencies": [
@@ -1082,6 +1096,9 @@
     },
     "detect-libc@2.0.3": {
       "integrity": "sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw=="
+    },
+    "devtools-detect@4.0.2": {
+      "integrity": "sha512-LfvHOc/a72gt4OvHOGFK51VmOeTM9Q5uuEeKX+k5oVWZM3qDoLBFVbdhjk7zXX54FuQ370L7OpmxQbNStT+7Gw=="
     },
     "electron-to-chromium@1.5.336": {
       "integrity": "sha512-AbH9q9J455r/nLmdNZes0G0ZKcRX73FicwowalLs6ijwOmCJSRRrLX63lcAlzy9ux3dWK1w1+1nsBJEWN11hcQ=="
@@ -1297,6 +1314,9 @@
         "lightningcss-win32-x64-msvc"
       ]
     },
+    "lodash.kebabcase@4.1.1": {
+      "integrity": "sha512-N8XRTIMMqqDgSy4VLKPnJ/+hpGZN+PHQiJnSenYqPaVV/NCqEogTnAdZLQiGKhxX+JCs8waWq2t1XHWKOmlY8g=="
+    },
     "lru-cache@5.1.1": {
       "integrity": "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==",
       "dependencies": [
@@ -1403,10 +1423,16 @@
       "integrity": "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==",
       "bin": true
     },
+    "simple-icons@13.15.0": {
+      "integrity": "sha512-8SzFj9CvPlDnjDLISsAWTvpCs7om2zbSJZ1hNLRo6quWKLqFwjCD9opS24Q/yD0bdsnVHPpF0N3hitpHrY5u9w=="
+    },
+    "simple-icons@9.7.0": {
+      "integrity": "sha512-dKDsHP5NjNYTYUW5LxpJuAUm5Wlzy8pxVdbPB8sbev//tcSgvdUYSymS5K2Q9qyz6o2eSl70iGA6kHcMmlaC9w=="
+    },
     "source-map-js@1.2.1": {
       "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA=="
     },
-    "tinyglobby@0.2.16_picomatch@4.0.4": {
+    "tinyglobby@0.2.16": {
       "integrity": "sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==",
       "dependencies": [
         "fdir",
@@ -1425,7 +1451,7 @@
       ],
       "bin": true
     },
-    "vite@7.3.2_picomatch@4.0.4": {
+    "vite@7.3.2": {
       "integrity": "sha512-Bby3NOsna2jsjfLVOHKes8sGwgl4TT0E6vvpYgnAYDIF/tie7MRaFthmKuHx1NSXjiTueXH3do80FMQgvEktRg==",
       "dependencies": [
         "esbuild@0.27.7",
@@ -1440,10 +1466,10 @@
       ],
       "bin": true
     },
-    "vite@8.0.8_esbuild@0.25.7": {
+    "vite@8.0.8_esbuild@0.25.12": {
       "integrity": "sha512-dbU7/iLVa8KZALJyLOBOQ88nOXtNG8vxKuOT4I2mD+Ya70KPceF4IAmDsmU0h1Qsn5bPrvsY9HJstCRh3hG6Uw==",
       "dependencies": [
-        "esbuild@0.25.7",
+        "esbuild@0.25.12",
         "lightningcss",
         "picomatch@4.0.4",
         "postcss",
@@ -1454,7 +1480,7 @@
         "fsevents"
       ],
       "optionalPeers": [
-        "esbuild@0.25.7"
+        "esbuild@0.25.12"
       ],
       "bin": true
     },
@@ -1467,7 +1493,12 @@
       "jsr:@fresh/core@^2.2.2",
       "jsr:@fresh/plugin-vite@^1.0.8",
       "npm:@preact/signals@^2.7.1",
+      "npm:date-fns@^2.29.3",
+      "npm:devtools-detect@^4.0.2",
+      "npm:lodash.kebabcase@^4.1.1",
       "npm:preact@^10.28.3",
+      "npm:simple-icons@13.15.0",
+      "npm:simple-icons@9.7.0",
       "npm:vite@^8.0.8"
     ]
   }

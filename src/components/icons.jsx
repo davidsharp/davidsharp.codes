@@ -6,9 +6,9 @@ import {
   siItchdotio,
   siLinkedin,
   siThreads,
-} from "npm:simple-icons@13.15.0";
+} from "simple-icons";
 
-import { siTwitter } from "npm:simple-icons@9.7.0";
+import { siTwitter } from "simple-icons-twitter";
 
 const siViewbox = "0 0 24 24";
 const faViewbox = "0 0 576 512";

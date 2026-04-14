@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "preact/hooks";
 
-import Game from "https://esm.sh/gh/davidsharp/consnake@1.0.1-emoji/snake.js";
-import devtools from "npm:devtools-detect@4.0/index.js";
+import Game from "../vendor/snake.js";
+import devtools from "devtools-detect";
 
 export default function Snake() {
   const [inited, setInited] = useState(false);
