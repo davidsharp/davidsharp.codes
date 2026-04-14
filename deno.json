@@ -9,7 +9,7 @@
   "imports": {
     "@fresh/plugin-vite": "jsr:@fresh/plugin-vite@^1.0.8",
     "preact": "npm:preact@^10.28.3",
-    "preact/": "https://esm.sh/preact@10.19.2/",
+    "preact/": "npm:preact@^10.28.3/",
     "@preact/signals": "npm:@preact/signals@^2.7.1",
     "fresh": "jsr:@fresh/core@^2.2.2",
     "vite": "npm:vite@^8.0.8"
