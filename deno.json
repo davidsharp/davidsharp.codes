@@ -1,8 +1,8 @@
 {
   "tasks": {
-    "start": "vite",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "deno serve -A _fresh/server.js",
+    "start": "deno serve -A _fresh/server.js",
     "vendor": "deno run --allow-net --allow-write vendor.ts"
   },
   "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" },
