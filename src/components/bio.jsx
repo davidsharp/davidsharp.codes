@@ -1,39 +1,55 @@
-import Box from './box.jsx'
-import A from './anchor.jsx'
+import Box from "./box.jsx";
+import A from "./anchor.jsx";
 
 //import './bio.css'
 
-const Bio = ({header=false}) => <Box
-header={header?"About David":null}
-style={{
-  display:'flex',
-  flexFlow:'row wrap',
-  justifyContent:'space-around',
-  alignItems: 'center'
-}}>
-  <div style={{
-    minWidth:'300px',
-    flex:'3 1 0'
-  }}>
-  <p><strong>David Sharp</strong> <em>(he/him)</em> is a "code wizard" living in Brighton</p>
-  <p>David unconditionally loves JavaScript, and can often be found <A href="https://charanga.com">writing apps in exchange for money</A></p>
-  <p>David has the brain of a magpie and also pretends to be interested in design, learns Japanese 'for the culture', casually dabbles in <A href="https://davidsharp.itch.io">game dev</A> and owns a guitar (and at least one pedal)</p>
-  </div>
-  <img
+const Bio = ({ header = false }) => (
+  <Box
+    header={header ? "About David" : null}
     style={{
-      maxWidth:200,
-      maxHeight:200,
-      border:'double #333',
-      margin: '.8em',
-      flex: '1 0 200px',
-      height: 200,
-      width: 200,
-      border: 'double black 10px',
-      borderRadius: '50% 50% 0 0',
+      display: "flex",
+      flexFlow: "row wrap",
+      justifyContent: "space-around",
+      alignItems: "center",
     }}
-    src="https://s.gravatar.com/avatar/78b4ada96c0948d94c8d6cd573736087?s=200"
-    alt="David in Kyoto, December 2016"
-  />
-</Box>
+  >
+    <div
+      style={{
+        minWidth: "300px",
+        flex: "3 1 0",
+      }}
+    >
+      <p>
+        <strong>David Sharp</strong> <em>(he/him)</em>{" "}
+        is a "code wizard" living in Brighton
+      </p>
+      <p>
+        David unconditionally loves JavaScript, and can often be found{" "}
+        <A href="https://charanga.com">writing apps in exchange for money</A>
+      </p>
+      <p>
+        David has the brain of a magpie and also pretends to be interested in
+        design, learns Japanese 'for the culture', casually dabbles in{" "}
+        <A href="https://davidsharp.itch.io">game dev</A>{" "}
+        and owns a guitar (and at least one pedal)
+      </p>
+    </div>
+    <img
+      style={{
+        maxWidth: 200,
+        maxHeight: 200,
+        border: "double #333",
+        margin: ".8em",
+        flex: "1 0 200px",
+        height: 200,
+        width: 200,
+        border: "double black 10px",
+        borderRadius: "50% 50% 0 0",
+      }}
+      src="https://s.gravatar.com/avatar/78b4ada96c0948d94c8d6cd573736087?s=200"
+      alt="David in Kyoto, December 2016"
+    />
+  </Box>
+);
 
-export default Bio
+export default Bio;

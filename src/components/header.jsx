@@ -1,4 +1,4 @@
-import Properties from '../properties.js';
+import Properties from "../properties.js";
 //import './outline.css'
 
 const Header = ({ siteTitle }) => (
@@ -14,7 +14,15 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0, width: '100%', textAlign: 'center', fontSize: '4rem', fontFamily: 'Fredoka One, Helvetica, sans-serif' }}>
+      <h1
+        style={{
+          margin: 0,
+          width: "100%",
+          textAlign: "center",
+          fontSize: "4rem",
+          fontFamily: "Fredoka One, Helvetica, sans-serif",
+        }}
+      >
         <a
           href="/"
           className="xoutline"
@@ -29,6 +37,6 @@ const Header = ({ siteTitle }) => (
       </h1>
     </div>
   </header>
-)
+);
 
-export default Header
+export default Header;

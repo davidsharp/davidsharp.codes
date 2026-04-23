@@ -21,8 +21,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: 'lightpink',//`#fedf00`,
-        theme_color: 'lightpink',//`#fedf00`,
+        background_color: "lightpink", //`#fedf00`,
+        theme_color: "lightpink", //`#fedf00`,
         display: `minimal-ui`,
         icon: `src/images/icon.svg`, // This path is relative to the root of the site.
       },
@@ -31,4 +31,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

@@ -1,3 +1,10 @@
-const Ruby = ({bottom,top})=><ruby>{bottom}<rp>{'('}</rp><rt>{top}</rt><rp>{')'}</rp></ruby>
+const Ruby = ({ bottom, top }) => (
+  <ruby>
+    {bottom}
+    <rp>{"("}</rp>
+    <rt>{top}</rt>
+    <rp>{")"}</rp>
+  </ruby>
+);
 
-export default Ruby
+export default Ruby;

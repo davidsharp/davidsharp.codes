@@ -1,4 +1,4 @@
-import { Head } from "$fresh/runtime.ts";
+import { Head } from "fresh/runtime";
 
 function SEO({ description, lang = "en", meta = [], title }) {
   // TODO - get from gatsyby-config.js

@@ -1,16 +1,8 @@
 const links = {
-  github: {
+  github: {},
+  twitter: {},
+  instagram: {},
+  glitch: {},
+};
 
-  },
-  twitter: {
-
-  },
-  instagram: {
-
-  },
-  glitch: {
-
-  },
-}
-
-export default links
+export default links;
