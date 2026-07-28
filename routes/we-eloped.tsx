@@ -1,30 +1,36 @@
 const sections = [
   {
-    title: 'We Eloped!',
-    contents: `<p>We ran away to Vegas and got married by Hellvis! We'd love to see you in Brighton for our Elopement Party on <strong>September 26th</strong> at <strong>The Joker, Brighton</strong></p>`,
-    //image: 'elopement/img-1.webp',
-  },
-  {
     title: 'Venue Details',
     contents: `
-    <strong>When?</strong> September 26th from 4pm to late <br/>
+    <strong>When?</strong> September 26th from 4pm 'til late <br/>
     <strong>Where?</strong> Upstairs at The Joker, Brighton <br/>
-    Kids are welcome, but are only allowed in the venue until 8pm
+    <div "><strong>Please note:</strong><br/>
+    Kids are welcome, but under-18s are only allowed in the venue until 8pm<br/>
+    There is no lift available, only stairs up to the venue<br/></div>
     `,
     image: 'elopement/img-1.webp',
   },
   {
-    title: 'Other details',
+    title: 'What to expect',
     contents: `
-    <strong>What to expect?</strong>Music, food, drinks, karaoke? Dancing?<br/>
-    <strong>Food</strong> There will be buffet style food, and cake<br/>
-    <strong>Dress Code</strong> We will be wearing our wedding outfits, so please come dressed up in something you would want to wear to a (Vegas) wedding reception`,
+    There will be music, food, drinks, maybe dancing and karaoke!<br/>
+    We will be showing a short video of our ceremony with Hellvis in Las Vegas<br/>
+<br/>
+    <strong>Food:</strong> There will be a variety of buffet style foods, and cake!<br/>
+    <strong>Drink:</strong> Order drinks at our private bar<br/>
+    <strong>What to wear:</strong> We will be wearing our wedding outfits, so please come dressed up in something you would want to wear to a Vegas wedding reception`,
     image: 'elopement/img-4.webp',
   },
   {
     title: 'RSVP',
-    contents: `<p>Please let us know if you are coming, if you’re bringing family, if you have dietary requirements, etc! Scan the QR code below, or click <a href="https://google.com">here</a> to RSVP</p>
-    <img class="qr" src="elopement/qrcode.svg"/>`,
+    contents: `<p>Please let us know if you are coming, if you are bringing anybody else, if you have any dietary requirements, etc - click <a href="https://google.com">here</a> to RSVP</p>
+    <p>
+    We don't need any presents, we would just love for you to join us if you can!
+    </p>
+    <p>
+    If you have any questions, just ask!
+    </p>
+`,
     image: 'elopement/img-3.webp',
   }
 ]
@@ -34,7 +40,7 @@ const Section = ({title,contents,image}) => (
       {image && <div className="image-block">
           <img src={image} alt=""/>
       </div>}
-      <div className="text-block">
+      <div className="text-block" style={{textAlign:'start'}}>
           <h2>{title}</h2>
           <div dangerouslySetInnerHTML={{ __html: contents }}/>
       </div>
@@ -58,6 +64,11 @@ const Elopement = () => (
             <img src="elopement/img-2.webp"/>
             <h1>Chloë & David got Hitched!</h1>
         </header>
+
+        <section>
+          <p>We ran away to Las Vegas and got married by Hellvis! We'd love to celebrate with you at our Elopement Party on <strong>Saturday September 26th</strong> at <strong>The Joker in Brighton</strong></p>
+        </section>
+
 
         {sections.map(Section)}
 
