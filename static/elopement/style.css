@@ -1,0 +1,120 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Main Palette */
+    --cadillac-pink: #FF70A6;    /* Shifted from a muted pastel to a punchy, vibrant bubblegum */
+    --mint-shake: #70D6B1;       /* Deepened slightly toward teal for better contrast against the pink */
+    --powder-blue: #7FB5FF;      /* Clarified to a cleaner, brighter retro sky blue */
+    --buttercup-yellow: #FFD966; /* Warmed up to a richer, golden tone so it doesn't get lost */
+    --diner-cream: #FFFDF7;      /* Lightened to provide a cleaner, fresher canvas */
+    --jukebox-charcoal: #2B2836; /* Deepened and infused with a subtle violet undertone */
+
+    --bg: #BDE0FE; /*var(--mint-shake);*/
+    --text: #2B2D42; /*var(--diner-cream);*/
+}
+
+h1, h2 {
+    font-family: "Caprasimo", system-ui, -apple-system, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 28pt;
+    font-family: "Molle", system-ui, -apple-system, sans-serif;
+}
+
+body {
+    font-family: "Noto Serif", system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    background: var(--bg);
+    color: var(--text);
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Mobile-First Layout: Stacked Column */
+.split-section {
+    display: flex;
+    flex-direction: column; /* Image on top, text on bottom */
+    gap: 20px;
+    margin-bottom: 60px;
+    /*background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);*/
+}
+
+.image-block img {
+    /*width: 100%;*/
+    height: 100%;
+    max-height: 33vh;
+    max-width: 66vw;
+    object-fit: cover; /* Prevents image distortion */
+    display: block;
+    margin: 0 auto;
+}
+
+.text-block {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers text vertically */
+    text-align: center;
+}
+
+.text-block h2 {
+    margin-bottom: 12px;
+}
+
+/* Desktop Layout: Side-by-Side Alternating */
+@media (min-width: 768px) {
+    .split-section {
+        flex-direction: row; /* Image left, text right */
+        gap: 0; /* Removing gap because we are adding padding to the text block instead */
+    }
+
+    /* Target every even section and reverse the flex direction */
+    .split-section:nth-child(even) {
+        flex-direction: row-reverse; /* Image right, text left */
+    }
+
+    /* Force the image and text blocks to each take up exactly 50% of the row */
+    .image-block {
+        flex: 1 1 33%;
+    }
+    .text-block {
+        flex: 1 1 66%;
+    }
+
+    .text-block {
+        padding: 40px;
+    }
+}
+
+img {
+    border: double 5px;
+    border-radius: 50%;
+}
+
+header img {
+    max-width: 100%;
+}
+
+img.qr {
+    display: block;
+    border-radius: 5%;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+a {color: currentColor;}
+a:hover {color: var(--cadillac-pink);}
