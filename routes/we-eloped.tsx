@@ -21,7 +21,7 @@ const sections = [
   },
   {
     title: 'RSVP',
-    contents: `<p>Please let us know if you are coming, if you are bringing anybody else, if you have any dietary requirements, etc - click <a href="https://google.com">here</a> to RSVP</p>
+    contents: `<p>Please let us know if you are coming, if you are bringing anybody else, if you have any dietary requirements, etc - click <a href="https://forms.gle/ZzMCU6Zw3Hpq98Ym8">here</a> to RSVP</p>
     <br/>
     We don't need any presents, we would just love for you to join us if you can!
     <br/><br/>
