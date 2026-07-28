@@ -5,18 +5,25 @@ const sections = [
     //image: 'elopement/img-1.webp',
   },
   {
-    title: 'Party Details',
-    contents: `<strong>When?</strong> September 26th from 5pm, <strong>Where?</strong> The Joker, Brighton`,
+    title: 'Venue Details',
+    contents: `
+    <strong>When?</strong> September 26th from 4pm to late <br/>
+    <strong>Where?</strong> Upstairs at The Joker, Brighton <br/>
+    Kids are welcome, but are only allowed in the venue until 8pm
+    `,
     image: 'elopement/img-1.webp',
   },
   {
-    title: 'TODO',
-    contents: `TODO`,
+    title: 'Other details',
+    contents: `
+    <strong>What to expect?</strong>Music, food, drinks, karaoke? Dancing?<br/>
+    <strong>Food</strong> There will be buffet style food, and cake<br/>
+    <strong>Dress Code</strong> We will be wearing our wedding outfits, so please come dressed up in something you would want to wear to a (Vegas) wedding reception`,
     image: 'elopement/img-4.webp',
   },
   {
-    title: 'TODO',
-    contents: `<p> Scan the QR code below, or click <a href="https://google.com">here</a> to RSVP</p>
+    title: 'RSVP',
+    contents: `<p>Please let us know if you are coming, if you’re bringing family, if you have dietary requirements, etc! Scan the QR code below, or click <a href="https://google.com">here</a> to RSVP</p>
     <img class="qr" src="elopement/qrcode.svg"/>`,
     image: 'elopement/img-3.webp',
   }
