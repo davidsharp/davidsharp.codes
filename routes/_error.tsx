@@ -1,3 +1,4 @@
+import { HttpError } from "fresh"; // Add this line!
 import FourOhFour from './404'
 
 export default function ErrorPage(props: PageProps) {
