@@ -2,7 +2,7 @@ const sections = [
   {
     title: 'Venue Details',
     contents: `
-    <strong>When?</strong> September 26th from 4pm 'til late <br/>
+    <strong>When?</strong> Saturday 26th September from 4pm 'til late <br/>
     <strong>Where?</strong> Upstairs at The Joker, Brighton <br/>
     <div style="margin-top:0.5em;"><strong>Please note:</strong> Kids are welcome, but under-18s are only allowed in the venue until 8pm. There is no lift available, only stairs up to the venue.</div>
     `,
@@ -62,7 +62,7 @@ const Elopement = () => (
         </header>
 
         <section>
-          <p>We ran away to Las Vegas and got married by Hellvis! We'd love to celebrate with you at our Elopement Party on <strong>Saturday September 26th</strong> at <strong>The Joker in Brighton</strong></p>
+          <p>We ran away to Las Vegas and got married by Hellvis! We'd love to celebrate with you at our Elopement Party on <strong>Saturday 26th September</strong> at <strong>The Joker in Brighton</strong></p>
         </section>
 
 
