@@ -129,7 +129,7 @@ img.qr {
 }
 
 a {
-    color: currentColor;
+    color: var(--cadillac-pink);
     text-decoration-color: var(--cadillac-pink);
 }
-a:hover {color: var(--cadillac-pink);}
+a:hover {color: var(--text);}

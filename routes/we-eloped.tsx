@@ -4,9 +4,7 @@ const sections = [
     contents: `
     <strong>When?</strong> September 26th from 4pm 'til late <br/>
     <strong>Where?</strong> Upstairs at The Joker, Brighton <br/>
-    <div "><strong>Please note:</strong><br/>
-    Kids are welcome, but under-18s are only allowed in the venue until 8pm<br/>
-    There is no lift available, only stairs up to the venue<br/></div>
+    <div style="margin-top:0.5em;"><strong>Please note:</strong> Kids are welcome, but under-18s are only allowed in the venue until 8pm. There is no lift available, only stairs up to the venue.</div>
     `,
     image: 'elopement/img-1.webp',
   },
@@ -24,12 +22,10 @@ const sections = [
   {
     title: 'RSVP',
     contents: `<p>Please let us know if you are coming, if you are bringing anybody else, if you have any dietary requirements, etc - click <a href="https://google.com">here</a> to RSVP</p>
-    <p>
+    <br/>
     We don't need any presents, we would just love for you to join us if you can!
-    </p>
-    <p>
+    <br/><br/>
     If you have any questions, just ask!
-    </p>
 `,
     image: 'elopement/img-3.webp',
   }
