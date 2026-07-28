@@ -33,6 +33,7 @@ body {
     background: var(--bg);
     color: var(--text);
     padding: 20px;
+    font-size: 1.1rem;
 }
 
 .container {
